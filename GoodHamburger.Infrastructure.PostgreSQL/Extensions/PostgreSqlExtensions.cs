@@ -1,7 +1,9 @@
+using GoodHamburger.Domain.Order.Repositories;
 using GoodHamburger.Domain.Shared.Data;
 using GoodHamburger.Infrastructure.PostgreSQL.Data;
 using GoodHamburger.Infrastructure.PostgreSQL.DbContext;
 using GoodHamburger.Infrastructure.PostgreSQL.Options;
+using GoodHamburger.Infrastructure.PostgreSQL.Repositories.Order;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -38,7 +40,10 @@ public static class PostgreSqlExtensions
     //todo: add repositories DI 
     private static IServiceCollection AddRepositories(this IServiceCollection services)
     {
-        return services.AddScoped<IUnityOfWork, UnityOfWork>();
+        return services
+                .AddScoped<IUnityOfWork, UnityOfWork>()
+                .AddScoped<IOrderRepository, OrderRepository>()
+            ;
     }
 
     public static IServiceProvider MigrateDataBase(this IServiceProvider serviceProvider)

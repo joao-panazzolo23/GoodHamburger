@@ -1,0 +1,16 @@
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Orders/bin/Debug/net10.0/GoodHamburger.Application.Orders.deps.json
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Orders/bin/Debug/net10.0/GoodHamburger.Application.Orders.dll
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Orders/bin/Debug/net10.0/GoodHamburger.Application.Orders.pdb
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Orders/bin/Debug/net10.0/GoodHamburger.Application.Shared.dll
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Orders/bin/Debug/net10.0/GoodHamburger.Application.Shared.pdb
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Orders/obj/Debug/net10.0/GoodHamburger.Application.Orders.csproj.AssemblyReference.cache
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Orders/obj/Debug/net10.0/GoodHamburger.Application.Orders.GeneratedMSBuildEditorConfig.editorconfig
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Orders/obj/Debug/net10.0/GoodHamburger.Application.Orders.AssemblyInfoInputs.cache
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Orders/obj/Debug/net10.0/GoodHamburger.Application.Orders.AssemblyInfo.cs
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Orders/obj/Debug/net10.0/GoodHamburger.Application.Orders.csproj.CoreCompileInputs.cache
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Orders/obj/Debug/net10.0/GoodHamburger.Application.Orders.sourcelink.json
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Orders/obj/Debug/net10.0/GoodHamb.7FEAD050.Up2Date
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Orders/obj/Debug/net10.0/GoodHamburger.Application.Orders.dll
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Orders/obj/Debug/net10.0/refint/GoodHamburger.Application.Orders.dll
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Orders/obj/Debug/net10.0/GoodHamburger.Application.Orders.pdb
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Orders/obj/Debug/net10.0/ref/GoodHamburger.Application.Orders.dll

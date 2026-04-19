@@ -2,6 +2,48 @@
   "version": 3,
   "targets": {
     "net10.0": {
+      "FluentValidation/12.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "FluentValidation.DependencyInjectionExtensions/12.1.1": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "12.1.1"
+        },
+        "compile": {
+          "lib/net8.0/FluentValidation.DependencyInjectionExtensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/FluentValidation.DependencyInjectionExtensions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Mediator.Abstractions/3.1.0-rc.1": {
+        "type": "package",
+        "compile": {
+          "lib/net10.0/Mediator.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Mediator.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.AspNetCore.OpenApi/10.0.5": {
         "type": "package",
         "dependencies": {
@@ -136,6 +178,34 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "GoodHamburger.Application.Orders/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "GoodHamburger.Application.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GoodHamburger.Application.Orders.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GoodHamburger.Application.Orders.dll": {}
+        }
+      },
+      "GoodHamburger.Application.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "FluentValidation": "12.1.1",
+          "FluentValidation.DependencyInjectionExtensions": "12.1.1",
+          "Mediator.Abstractions": "3.1.0-rc.1"
+        },
+        "compile": {
+          "bin/placeholder/GoodHamburger.Application.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GoodHamburger.Application.Shared.dll": {}
+        }
+      },
       "GoodHamburger.Domain.Orders/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
@@ -174,10 +244,71 @@
         "runtime": {
           "bin/placeholder/GoodHamburger.Infrastructure.PostgreSQL.dll": {}
         }
+      },
+      "GoodHamburger.Presentation.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/GoodHamburger.Presentation.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GoodHamburger.Presentation.Shared.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "FluentValidation/12.1.1": {
+      "sha512": "EPpkIe1yh1a0OXyC100oOA8WMbZvqUu5plwhvYcb7oSELfyUZzfxV48BLhvs3kKo4NwG7MGLNgy1RJiYtT8Dpw==",
+      "type": "package",
+      "path": "fluentvalidation/12.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.12.1.1.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net8.0/FluentValidation.dll",
+        "lib/net8.0/FluentValidation.xml"
+      ]
+    },
+    "FluentValidation.DependencyInjectionExtensions/12.1.1": {
+      "sha512": "D0VXh4dtjjX2aQizuaa0g6R8X3U1JaVqJPfGCvLwZX9t/O2h7tkpbitbadQMfwcgSPdDbI2vDxuwRMv/Uf9dHA==",
+      "type": "package",
+      "path": "fluentvalidation.dependencyinjectionextensions/12.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
+        "fluentvalidation.dependencyinjectionextensions.nuspec",
+        "lib/net8.0/FluentValidation.DependencyInjectionExtensions.dll",
+        "lib/net8.0/FluentValidation.DependencyInjectionExtensions.xml"
+      ]
+    },
+    "Mediator.Abstractions/3.1.0-rc.1": {
+      "sha512": "iIjr4GZ3HuRfUqwsCHKxXJxP5gVQ3g/xeExH3i73081gpBm/40yz3BoOyAVoLrqneh2TCftQhAzaaZwBukvJXQ==",
+      "type": "package",
+      "path": "mediator.abstractions/3.1.0-rc.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "lib/net10.0/Mediator.dll",
+        "lib/net10.0/Mediator.xml",
+        "lib/net8.0/Mediator.dll",
+        "lib/net8.0/Mediator.xml",
+        "lib/net9.0/Mediator.dll",
+        "lib/net9.0/Mediator.xml",
+        "lib/netstandard2.0/Mediator.dll",
+        "lib/netstandard2.0/Mediator.xml",
+        "mediator.abstractions.3.1.0-rc.1.nupkg.sha512",
+        "mediator.abstractions.nuspec"
+      ]
+    },
     "Microsoft.AspNetCore.OpenApi/10.0.5": {
       "sha512": "vTcxIfOPyfFbYk1g8YcXJfkMnlEWVkSnnjxcZLy60zgwiHMRf2SnZR+9E4HlpwKxgE3yfKMOti8J6WfKuKsw6w==",
       "type": "package",
@@ -327,6 +458,16 @@
         "scalar.aspnetcore.nuspec"
       ]
     },
+    "GoodHamburger.Application.Orders/1.0.0": {
+      "type": "project",
+      "path": "../GoodHamburger.Application.Orders/GoodHamburger.Application.Orders.csproj",
+      "msbuildProject": "../GoodHamburger.Application.Orders/GoodHamburger.Application.Orders.csproj"
+    },
+    "GoodHamburger.Application.Shared/1.0.0": {
+      "type": "project",
+      "path": "../GoodHamburger.Application.Shared/GoodHamburger.Application.Shared.csproj",
+      "msbuildProject": "../GoodHamburger.Application.Shared/GoodHamburger.Application.Shared.csproj"
+    },
     "GoodHamburger.Domain.Orders/1.0.0": {
       "type": "project",
       "path": "../GoodHamburger.Domain.Orders/GoodHamburger.Domain.Orders.csproj",
@@ -341,11 +482,18 @@
       "type": "project",
       "path": "../GoodHamburger.Infrastructure.PostgreSQL/GoodHamburger.Infrastructure.PostgreSQL.csproj",
       "msbuildProject": "../GoodHamburger.Infrastructure.PostgreSQL/GoodHamburger.Infrastructure.PostgreSQL.csproj"
+    },
+    "GoodHamburger.Presentation.Shared/1.0.0": {
+      "type": "project",
+      "path": "../GoodHamburger.Presentation.Shared/GoodHamburger.Presentation.Shared.csproj",
+      "msbuildProject": "../GoodHamburger.Presentation.Shared/GoodHamburger.Presentation.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "GoodHamburger.Application.Orders >= 1.0.0",
       "GoodHamburger.Infrastructure.PostgreSQL >= 1.0.0",
+      "GoodHamburger.Presentation.Shared >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 10.0.5",
       "Scalar.AspNetCore >= 2.14.1"
     ]
@@ -375,8 +523,14 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
+            "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Orders/GoodHamburger.Application.Orders.csproj": {
+              "projectPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Orders/GoodHamburger.Application.Orders.csproj"
+            },
             "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Infrastructure.PostgreSQL/GoodHamburger.Infrastructure.PostgreSQL.csproj": {
               "projectPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Infrastructure.PostgreSQL/GoodHamburger.Infrastructure.PostgreSQL.csproj"
+            },
+            "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Presentation.Shared/GoodHamburger.Presentation.Shared.csproj": {
+              "projectPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Presentation.Shared/GoodHamburger.Presentation.Shared.csproj"
             }
           }
         }

@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v10.0": {
       "GoodHamburger.Infrastructure.PostgreSQL/1.0.0": {
         "dependencies": {
+          "GoodHamburger.Domain.Orders": "1.0.0",
           "GoodHamburger.Domain.Shared": "1.0.0",
           "Microsoft.EntityFrameworkCore": "10.0.6",
           "Microsoft.EntityFrameworkCore.Design": "10.0.6",
@@ -696,6 +697,17 @@
           }
         }
       },
+      "GoodHamburger.Domain.Orders/1.0.0": {
+        "dependencies": {
+          "GoodHamburger.Domain.Shared": "1.0.0"
+        },
+        "runtime": {
+          "GoodHamburger.Domain.Orders.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "GoodHamburger.Domain.Shared/1.0.0": {
         "runtime": {
           "GoodHamburger.Domain.Shared.dll": {
@@ -998,6 +1010,11 @@
       "sha512": "sha512-aRZlojCCGEHDKqh43jaDgaVpYETsgd7Nx4g1zwLKMtv4iTo0627715ajEFNpEEBTgLmvZuv8K0EVxc3sM4NWJA==",
       "path": "system.composition.typedparts/9.0.0",
       "hashPath": "system.composition.typedparts.9.0.0.nupkg.sha512"
+    },
+    "GoodHamburger.Domain.Orders/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "GoodHamburger.Domain.Shared/1.0.0": {
       "type": "project",

@@ -2,7 +2,9 @@
 /home/john/RiderProjects/GoodHamburger/GoodHamburger.Infrastructure.PostgreSQL/bin/Debug/net10.0/GoodHamburger.Infrastructure.PostgreSQL.runtimeconfig.json
 /home/john/RiderProjects/GoodHamburger/GoodHamburger.Infrastructure.PostgreSQL/bin/Debug/net10.0/GoodHamburger.Infrastructure.PostgreSQL.dll
 /home/john/RiderProjects/GoodHamburger/GoodHamburger.Infrastructure.PostgreSQL/bin/Debug/net10.0/GoodHamburger.Infrastructure.PostgreSQL.pdb
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Infrastructure.PostgreSQL/bin/Debug/net10.0/GoodHamburger.Domain.Orders.dll
 /home/john/RiderProjects/GoodHamburger/GoodHamburger.Infrastructure.PostgreSQL/bin/Debug/net10.0/GoodHamburger.Domain.Shared.dll
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Infrastructure.PostgreSQL/bin/Debug/net10.0/GoodHamburger.Domain.Orders.pdb
 /home/john/RiderProjects/GoodHamburger/GoodHamburger.Infrastructure.PostgreSQL/bin/Debug/net10.0/GoodHamburger.Domain.Shared.pdb
 /home/john/RiderProjects/GoodHamburger/GoodHamburger.Infrastructure.PostgreSQL/obj/Debug/net10.0/GoodHamburger.Infrastructure.PostgreSQL.csproj.AssemblyReference.cache
 /home/john/RiderProjects/GoodHamburger/GoodHamburger.Infrastructure.PostgreSQL/obj/Debug/net10.0/GoodHamburger.Infrastructure.PostgreSQL.GeneratedMSBuildEditorConfig.editorconfig

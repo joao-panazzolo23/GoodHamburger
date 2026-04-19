@@ -1,0 +1,16 @@
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Shared/bin/Debug/net10.0/GoodHamburger.Application.Shared.deps.json
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Shared/bin/Debug/net10.0/GoodHamburger.Application.Shared.dll
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Shared/bin/Debug/net10.0/GoodHamburger.Application.Shared.pdb
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Shared/bin/Debug/net10.0/Microsoft.Extensions.Logging.Abstractions.dll
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Shared/bin/Debug/net10.0/Microsoft.Extensions.Logging.Abstractions.xml
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Shared/obj/Debug/net10.0/GoodHamburger.Application.Shared.csproj.AssemblyReference.cache
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Shared/obj/Debug/net10.0/GoodHamburger.Application.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Shared/obj/Debug/net10.0/GoodHamburger.Application.Shared.AssemblyInfoInputs.cache
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Shared/obj/Debug/net10.0/GoodHamburger.Application.Shared.AssemblyInfo.cs
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Shared/obj/Debug/net10.0/GoodHamburger.Application.Shared.csproj.CoreCompileInputs.cache
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Shared/obj/Debug/net10.0/GoodHamburger.Application.Shared.sourcelink.json
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Shared/obj/Debug/net10.0/GoodHamb.297E6118.Up2Date
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Shared/obj/Debug/net10.0/GoodHamburger.Application.Shared.dll
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Shared/obj/Debug/net10.0/refint/GoodHamburger.Application.Shared.dll
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Shared/obj/Debug/net10.0/GoodHamburger.Application.Shared.pdb
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Shared/obj/Debug/net10.0/ref/GoodHamburger.Application.Shared.dll

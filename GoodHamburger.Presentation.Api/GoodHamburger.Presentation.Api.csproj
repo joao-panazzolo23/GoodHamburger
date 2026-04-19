@@ -12,7 +12,9 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\GoodHamburger.Application.Orders\GoodHamburger.Application.Orders.csproj" />
       <ProjectReference Include="..\GoodHamburger.Infrastructure.PostgreSQL\GoodHamburger.Infrastructure.PostgreSQL.csproj" />
+      <ProjectReference Include="..\GoodHamburger.Presentation.Shared\GoodHamburger.Presentation.Shared.csproj" />
     </ItemGroup>
 
 </Project>
