@@ -21,6 +21,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\GoodHamburger.Domain.Orders\GoodHamburger.Domain.Orders.csproj" />
       <ProjectReference Include="..\GoodHamburger.Domain.Shared\GoodHamburger.Domain.Shared.csproj" />
     </ItemGroup>
 

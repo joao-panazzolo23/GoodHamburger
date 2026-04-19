@@ -983,6 +983,19 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
+      "GoodHamburger.Domain.Orders/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "GoodHamburger.Domain.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GoodHamburger.Domain.Orders.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GoodHamburger.Domain.Orders.dll": {}
+        }
+      },
       "GoodHamburger.Domain.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
@@ -3057,6 +3070,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "GoodHamburger.Domain.Orders/1.0.0": {
+      "type": "project",
+      "path": "../GoodHamburger.Domain.Orders/GoodHamburger.Domain.Orders.csproj",
+      "msbuildProject": "../GoodHamburger.Domain.Orders/GoodHamburger.Domain.Orders.csproj"
+    },
     "GoodHamburger.Domain.Shared/1.0.0": {
       "type": "project",
       "path": "../GoodHamburger.Domain.Shared/GoodHamburger.Domain.Shared.csproj",
@@ -3065,6 +3083,7 @@
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "GoodHamburger.Domain.Orders >= 1.0.0",
       "GoodHamburger.Domain.Shared >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 10.0.6",
       "Microsoft.EntityFrameworkCore.Design >= 10.0.6",
@@ -3101,6 +3120,9 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
+            "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Orders/GoodHamburger.Domain.Orders.csproj": {
+              "projectPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Orders/GoodHamburger.Domain.Orders.csproj"
+            },
             "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Shared/GoodHamburger.Domain.Shared.csproj": {
               "projectPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Shared/GoodHamburger.Domain.Shared.csproj"
             }

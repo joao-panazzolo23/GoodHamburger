@@ -136,6 +136,19 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "GoodHamburger.Domain.Orders/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "GoodHamburger.Domain.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GoodHamburger.Domain.Orders.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GoodHamburger.Domain.Orders.dll": {}
+        }
+      },
       "GoodHamburger.Domain.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
@@ -150,6 +163,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
+          "GoodHamburger.Domain.Orders": "1.0.0",
           "GoodHamburger.Domain.Shared": "1.0.0",
           "Microsoft.EntityFrameworkCore": "10.0.6",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.1"
@@ -312,6 +326,11 @@
         "scalar.aspnetcore.2.14.1.nupkg.sha512",
         "scalar.aspnetcore.nuspec"
       ]
+    },
+    "GoodHamburger.Domain.Orders/1.0.0": {
+      "type": "project",
+      "path": "../GoodHamburger.Domain.Orders/GoodHamburger.Domain.Orders.csproj",
+      "msbuildProject": "../GoodHamburger.Domain.Orders/GoodHamburger.Domain.Orders.csproj"
     },
     "GoodHamburger.Domain.Shared/1.0.0": {
       "type": "project",
