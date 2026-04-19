@@ -10,7 +10,6 @@ public static class DocumentationExtensions
         {
             services.AddOpenApi();
         }
-
         return services;
     }
 

@@ -8,7 +8,7 @@ builder.Services
 
 var app = builder.Build();
 
-app.UseScalarInterface();
-app.UseHttpsRedirection();
+app.UseScalarInterface()
+    .UseHttpsRedirection();
 
 app.Run();
