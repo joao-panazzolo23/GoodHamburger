@@ -11,7 +11,8 @@ namespace GoodHamburger.Infrastructure.PostgreSQL.Extensions;
 
 public static class PostgreSqlExtensions
 {
-    public static IServiceCollection AddPostgreSqlDb(this IServiceCollection services, IConfiguration configuration)
+    public static IServiceCollection AddPostgreSqlDb(
+        this IServiceCollection services, IConfiguration configuration)
     {
         AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 

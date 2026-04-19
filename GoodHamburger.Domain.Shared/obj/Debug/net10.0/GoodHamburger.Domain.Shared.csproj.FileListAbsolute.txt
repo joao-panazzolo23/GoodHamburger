@@ -1,0 +1,12 @@
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Shared/bin/Debug/net10.0/GoodHamburger.Domain.Shared.deps.json
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Shared/bin/Debug/net10.0/GoodHamburger.Domain.Shared.dll
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Shared/bin/Debug/net10.0/GoodHamburger.Domain.Shared.pdb
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Shared/obj/Debug/net10.0/GoodHamburger.Domain.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Shared/obj/Debug/net10.0/GoodHamburger.Domain.Shared.AssemblyInfoInputs.cache
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Shared/obj/Debug/net10.0/GoodHamburger.Domain.Shared.AssemblyInfo.cs
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Shared/obj/Debug/net10.0/GoodHamburger.Domain.Shared.csproj.CoreCompileInputs.cache
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Shared/obj/Debug/net10.0/GoodHamburger.Domain.Shared.sourcelink.json
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Shared/obj/Debug/net10.0/GoodHamburger.Domain.Shared.dll
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Shared/obj/Debug/net10.0/refint/GoodHamburger.Domain.Shared.dll
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Shared/obj/Debug/net10.0/GoodHamburger.Domain.Shared.pdb
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Shared/obj/Debug/net10.0/ref/GoodHamburger.Domain.Shared.dll

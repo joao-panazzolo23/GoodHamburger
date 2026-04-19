@@ -22,6 +22,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodHamburger.Presentation.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodHamburger.Infrastructure.PostgreSQL", "GoodHamburger.Infrastructure.PostgreSQL\GoodHamburger.Infrastructure.PostgreSQL.csproj", "{D36266A4-3739-4E75-B760-DA41640D3604}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodHamburger.Domain.Orders", "GoodHamburger.Domain.Orders\GoodHamburger.Domain.Orders.csproj", "{6EEED275-388F-4768-B2C5-7956B7295BF5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +50,10 @@ Global
 		{D36266A4-3739-4E75-B760-DA41640D3604}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D36266A4-3739-4E75-B760-DA41640D3604}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D36266A4-3739-4E75-B760-DA41640D3604}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EEED275-388F-4768-B2C5-7956B7295BF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EEED275-388F-4768-B2C5-7956B7295BF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EEED275-388F-4768-B2C5-7956B7295BF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EEED275-388F-4768-B2C5-7956B7295BF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{36BC5C4C-0194-4866-B066-DC11241A54B1} = {21E99873-0761-44E1-925A-6BFAE3552328}
@@ -59,5 +65,6 @@ Global
 		{86884DCD-1D5A-4C61-ADC0-AFC93B0C82C3} = {36BC5C4C-0194-4866-B066-DC11241A54B1}
 		{0AF89EE6-C383-4358-852C-DB6957A34A31} = {36BC5C4C-0194-4866-B066-DC11241A54B1}
 		{D36266A4-3739-4E75-B760-DA41640D3604} = {16F34874-1A4A-443D-A2E2-AAB57481B241}
+		{6EEED275-388F-4768-B2C5-7956B7295BF5} = {26468B97-DA6D-4889-90F2-FA85DC2B5CF5}
 	EndGlobalSection
 EndGlobal

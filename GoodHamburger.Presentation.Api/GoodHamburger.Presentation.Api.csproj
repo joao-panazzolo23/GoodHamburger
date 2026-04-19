@@ -8,6 +8,11 @@
 
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.5"/>
+        <PackageReference Include="Scalar.AspNetCore" Version="2.14.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\GoodHamburger.Infrastructure.PostgreSQL\GoodHamburger.Infrastructure.PostgreSQL.csproj" />
     </ItemGroup>
 
 </Project>
