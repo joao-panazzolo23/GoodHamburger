@@ -1,7 +1,7 @@
-using GoodHamburger.Presentation.Api.Handlers.Strategies.Abstract;
+using GoodHamburger.Presentation.Api.Exceptions.Strategies.Strategies.Abstract;
 using Microsoft.AspNetCore.Diagnostics;
 
-namespace GoodHamburger.Presentation.Api.Handlers;
+namespace GoodHamburger.Presentation.Api.Exceptions.Handlers;
 
 public sealed class GlobalExceptionHandler(
     ILogger<GlobalExceptionHandler> logger,

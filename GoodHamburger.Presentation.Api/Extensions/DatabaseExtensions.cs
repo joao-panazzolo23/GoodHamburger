@@ -8,4 +8,10 @@ public static class DatabaseExtensions
     {
         return services.AddPostgreSqlDb(configuration);
     }
+    public static IApplicationBuilder UseDatabase(this IApplicationBuilder app)
+    {
+        ((WebApplication)app).Services.MigrateDataBase();
+        return app;
+    }
+    
 }

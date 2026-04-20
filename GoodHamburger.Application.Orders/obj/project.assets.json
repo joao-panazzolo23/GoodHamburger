@@ -78,6 +78,29 @@
         "runtime": {
           "bin/placeholder/GoodHamburger.Application.Shared.dll": {}
         }
+      },
+      "GoodHamburger.Domain.Orders/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "GoodHamburger.Domain.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GoodHamburger.Domain.Orders.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GoodHamburger.Domain.Orders.dll": {}
+        }
+      },
+      "GoodHamburger.Domain.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/GoodHamburger.Domain.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GoodHamburger.Domain.Shared.dll": {}
+        }
       }
     }
   },
@@ -168,11 +191,23 @@
       "type": "project",
       "path": "../GoodHamburger.Application.Shared/GoodHamburger.Application.Shared.csproj",
       "msbuildProject": "../GoodHamburger.Application.Shared/GoodHamburger.Application.Shared.csproj"
+    },
+    "GoodHamburger.Domain.Orders/1.0.0": {
+      "type": "project",
+      "path": "../GoodHamburger.Domain.Orders/GoodHamburger.Domain.Orders.csproj",
+      "msbuildProject": "../GoodHamburger.Domain.Orders/GoodHamburger.Domain.Orders.csproj"
+    },
+    "GoodHamburger.Domain.Shared/1.0.0": {
+      "type": "project",
+      "path": "../GoodHamburger.Domain.Shared/GoodHamburger.Domain.Shared.csproj",
+      "msbuildProject": "../GoodHamburger.Domain.Shared/GoodHamburger.Domain.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "GoodHamburger.Application.Shared >= 1.0.0"
+      "GoodHamburger.Application.Shared >= 1.0.0",
+      "GoodHamburger.Domain.Orders >= 1.0.0",
+      "GoodHamburger.Domain.Shared >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -202,6 +237,12 @@
           "projectReferences": {
             "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Shared/GoodHamburger.Application.Shared.csproj": {
               "projectPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Shared/GoodHamburger.Application.Shared.csproj"
+            },
+            "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Orders/GoodHamburger.Domain.Orders.csproj": {
+              "projectPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Orders/GoodHamburger.Domain.Orders.csproj"
+            },
+            "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Shared/GoodHamburger.Domain.Shared.csproj": {
+              "projectPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Shared/GoodHamburger.Domain.Shared.csproj"
             }
           }
         }

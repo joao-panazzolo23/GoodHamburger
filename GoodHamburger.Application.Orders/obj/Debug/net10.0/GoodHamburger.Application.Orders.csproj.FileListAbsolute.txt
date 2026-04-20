@@ -14,3 +14,7 @@
 /home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Orders/obj/Debug/net10.0/refint/GoodHamburger.Application.Orders.dll
 /home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Orders/obj/Debug/net10.0/GoodHamburger.Application.Orders.pdb
 /home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Orders/obj/Debug/net10.0/ref/GoodHamburger.Application.Orders.dll
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Orders/bin/Debug/net10.0/GoodHamburger.Domain.Shared.dll
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Orders/bin/Debug/net10.0/GoodHamburger.Domain.Shared.pdb
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Orders/bin/Debug/net10.0/GoodHamburger.Domain.Orders.dll
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Orders/bin/Debug/net10.0/GoodHamburger.Domain.Orders.pdb

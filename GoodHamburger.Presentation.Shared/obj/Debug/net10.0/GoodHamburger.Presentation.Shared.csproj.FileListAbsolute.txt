@@ -10,3 +10,4 @@
 /home/john/RiderProjects/GoodHamburger/GoodHamburger.Presentation.Shared/obj/Debug/net10.0/refint/GoodHamburger.Presentation.Shared.dll
 /home/john/RiderProjects/GoodHamburger/GoodHamburger.Presentation.Shared/obj/Debug/net10.0/GoodHamburger.Presentation.Shared.pdb
 /home/john/RiderProjects/GoodHamburger/GoodHamburger.Presentation.Shared/obj/Debug/net10.0/ref/GoodHamburger.Presentation.Shared.dll
+/home/john/RiderProjects/GoodHamburger/GoodHamburger.Presentation.Shared/obj/Debug/net10.0/GoodHamburger.Presentation.Shared.csproj.AssemblyReference.cache

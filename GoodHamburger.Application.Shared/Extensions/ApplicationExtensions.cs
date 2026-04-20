@@ -3,7 +3,7 @@ using GoodHamburger.Application.Shared.Pipelines.Behaviors;
 using Mediator;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace GoodHamburger.Application.Shared;
+namespace GoodHamburger.Application.Shared.Extensions;
 
 public static class ApplicationExtensions
 {

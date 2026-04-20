@@ -14,6 +14,8 @@
     <ItemGroup>
       <ProjectReference Include="..\GoodHamburger.Application.Orders\GoodHamburger.Application.Orders.csproj" />
       <ProjectReference Include="..\GoodHamburger.Infrastructure.PostgreSQL\GoodHamburger.Infrastructure.PostgreSQL.csproj" />
+      <ProjectReference Include="..\GoodHamburger.Presentation.Orders\GoodHamburger.Presentation.Orders.csproj" />
+      <ProjectReference Include="..\GoodHamburger.Presentation.Products\GoodHamburger.Presentation.Products.csproj" />
       <ProjectReference Include="..\GoodHamburger.Presentation.Shared\GoodHamburger.Presentation.Shared.csproj" />
     </ItemGroup>
 

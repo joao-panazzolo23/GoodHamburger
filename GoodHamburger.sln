@@ -26,6 +26,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodHamburger.Domain.Orders
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodHamburger.Application.Orders", "GoodHamburger.Application.Orders\GoodHamburger.Application.Orders.csproj", "{976B63AF-3D10-4BCF-B1E9-32EC394AFCC0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodHamburger.Presentation.Products", "GoodHamburger.Presentation.Products\GoodHamburger.Presentation.Products.csproj", "{673EA22E-26A8-4E37-8E4A-6A3DD79A1F42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodHamburger.Domain.Products", "GoodHamburger.Domain.Products\GoodHamburger.Domain.Products.csproj", "{DDFB7552-5776-4178-85FB-B019110CE835}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodHamburger.Application.Products", "GoodHamburger.Application.Products\GoodHamburger.Application.Products.csproj", "{24C9A9D2-73C2-445A-AE52-3494F84D3C25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodHamburger.Presentation.Orders", "GoodHamburger.Presentation.Orders\GoodHamburger.Presentation.Orders.csproj", "{0FF1F9FD-7383-4CB8-846D-0C5D9323C709}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,6 +68,22 @@ Global
 		{976B63AF-3D10-4BCF-B1E9-32EC394AFCC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{976B63AF-3D10-4BCF-B1E9-32EC394AFCC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{976B63AF-3D10-4BCF-B1E9-32EC394AFCC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{673EA22E-26A8-4E37-8E4A-6A3DD79A1F42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{673EA22E-26A8-4E37-8E4A-6A3DD79A1F42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{673EA22E-26A8-4E37-8E4A-6A3DD79A1F42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{673EA22E-26A8-4E37-8E4A-6A3DD79A1F42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDFB7552-5776-4178-85FB-B019110CE835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDFB7552-5776-4178-85FB-B019110CE835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDFB7552-5776-4178-85FB-B019110CE835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDFB7552-5776-4178-85FB-B019110CE835}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24C9A9D2-73C2-445A-AE52-3494F84D3C25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24C9A9D2-73C2-445A-AE52-3494F84D3C25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24C9A9D2-73C2-445A-AE52-3494F84D3C25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24C9A9D2-73C2-445A-AE52-3494F84D3C25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FF1F9FD-7383-4CB8-846D-0C5D9323C709}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FF1F9FD-7383-4CB8-846D-0C5D9323C709}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FF1F9FD-7383-4CB8-846D-0C5D9323C709}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FF1F9FD-7383-4CB8-846D-0C5D9323C709}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{36BC5C4C-0194-4866-B066-DC11241A54B1} = {21E99873-0761-44E1-925A-6BFAE3552328}
@@ -73,5 +97,9 @@ Global
 		{D36266A4-3739-4E75-B760-DA41640D3604} = {16F34874-1A4A-443D-A2E2-AAB57481B241}
 		{6EEED275-388F-4768-B2C5-7956B7295BF5} = {26468B97-DA6D-4889-90F2-FA85DC2B5CF5}
 		{976B63AF-3D10-4BCF-B1E9-32EC394AFCC0} = {3105DDB9-645A-4385-9214-68B62D51569A}
+		{673EA22E-26A8-4E37-8E4A-6A3DD79A1F42} = {36BC5C4C-0194-4866-B066-DC11241A54B1}
+		{DDFB7552-5776-4178-85FB-B019110CE835} = {26468B97-DA6D-4889-90F2-FA85DC2B5CF5}
+		{24C9A9D2-73C2-445A-AE52-3494F84D3C25} = {3105DDB9-645A-4385-9214-68B62D51569A}
+		{0FF1F9FD-7383-4CB8-846D-0C5D9323C709} = {36BC5C4C-0194-4866-B066-DC11241A54B1}
 	EndGlobalSection
 EndGlobal

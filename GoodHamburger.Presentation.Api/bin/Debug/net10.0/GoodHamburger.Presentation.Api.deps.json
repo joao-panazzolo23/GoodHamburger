@@ -125,7 +125,9 @@
       },
       "GoodHamburger.Application.Orders/1.0.0": {
         "dependencies": {
-          "GoodHamburger.Application.Shared": "1.0.0"
+          "GoodHamburger.Application.Shared": "1.0.0",
+          "GoodHamburger.Domain.Orders": "1.0.0",
+          "GoodHamburger.Domain.Shared": "1.0.0"
         },
         "runtime": {
           "GoodHamburger.Application.Orders.dll": {
@@ -181,6 +183,9 @@
         }
       },
       "GoodHamburger.Presentation.Shared/1.0.0": {
+        "dependencies": {
+          "Mediator.Abstractions": "3.1.0-rc.1"
+        },
         "runtime": {
           "GoodHamburger.Presentation.Shared.dll": {
             "assemblyVersion": "1.0.0.0",
