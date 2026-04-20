@@ -7,5 +7,5 @@ public interface IProductRepository
     public Task Create(Product product);
     public Task Update(Product product);
     public Task Delete(Product product);
-    public Task GetById(Guid id);
+    public Task<Product?> GetById(Guid id);
 }

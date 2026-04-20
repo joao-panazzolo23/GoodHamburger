@@ -69,6 +69,7 @@
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
           "GoodHamburger.Application.Shared": "1.0.0",
+          "GoodHamburger.Contracts": "1.0.0",
           "GoodHamburger.Domain.Products": "1.0.0"
         },
         "compile": {
@@ -91,6 +92,16 @@
         },
         "runtime": {
           "bin/placeholder/GoodHamburger.Application.Shared.dll": {}
+        }
+      },
+      "GoodHamburger.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/GoodHamburger.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GoodHamburger.Contracts.dll": {}
         }
       },
       "GoodHamburger.Domain.Products/1.0.0": {
@@ -223,6 +234,11 @@
       "type": "project",
       "path": "../GoodHamburger.Application.Shared/GoodHamburger.Application.Shared.csproj",
       "msbuildProject": "../GoodHamburger.Application.Shared/GoodHamburger.Application.Shared.csproj"
+    },
+    "GoodHamburger.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../GoodHamburger.Contracts/GoodHamburger.Contracts.csproj",
+      "msbuildProject": "../GoodHamburger.Contracts/GoodHamburger.Contracts.csproj"
     },
     "GoodHamburger.Domain.Products/1.0.0": {
       "type": "project",

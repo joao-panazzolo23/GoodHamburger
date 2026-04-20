@@ -1,4 +1,6 @@
 using System.Reflection;
+using GoodHamburger.Application.Products.Modules;
+using GoodHamburger.Contracts.Products;
 using GoodHamburger.Presentation.Orders;
 using GoodHamburger.Presentation.Product;
 
@@ -15,16 +17,21 @@ public static class ModuleExtensions
         foreach (var assembly in assemblies)
             mvc.AddApplicationPart(assembly);
 
-        return services;
+        return services.AddAbstractModules();
     }
-    
+
+    private static IServiceCollection AddAbstractModules(this IServiceCollection services)
+    {
+        return services.AddScoped<IProductModule, ProductModule>();
+    }
 
     private static List<Assembly> GetAllReferencedAssemblies()
     {
-        var types = new List<Type>()
+        var types = new[]
         {
+            //todo: find a way to make this more idiomatic && scalable
             typeof(ProductController),
-            typeof(OrderController)
+            typeof(OrderController),
         };
 
         return types.Select(x => x.GetTypeInfo().Assembly).ToList();
