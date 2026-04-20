@@ -14,3 +14,19 @@
 /home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Orders/obj/Debug/net10.0/refint/GoodHamburger.Domain.Orders.dll
 /home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Orders/obj/Debug/net10.0/GoodHamburger.Domain.Orders.pdb
 /home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Orders/obj/Debug/net10.0/ref/GoodHamburger.Domain.Orders.dll
+C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburger.Domain.Orders\bin\Debug\net10.0\GoodHamburger.Domain.Orders.deps.json
+C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburger.Domain.Orders\bin\Debug\net10.0\GoodHamburger.Domain.Orders.dll
+C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburger.Domain.Orders\bin\Debug\net10.0\GoodHamburger.Domain.Orders.pdb
+C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburger.Domain.Orders\bin\Debug\net10.0\GoodHamburger.Domain.Shared.dll
+C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburger.Domain.Orders\bin\Debug\net10.0\GoodHamburger.Domain.Shared.pdb
+C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburger.Domain.Orders\obj\Debug\net10.0\GoodHamburger.Domain.Orders.csproj.AssemblyReference.cache
+C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburger.Domain.Orders\obj\Debug\net10.0\GoodHamburger.Domain.Orders.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburger.Domain.Orders\obj\Debug\net10.0\GoodHamburger.Domain.Orders.AssemblyInfoInputs.cache
+C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburger.Domain.Orders\obj\Debug\net10.0\GoodHamburger.Domain.Orders.AssemblyInfo.cs
+C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburger.Domain.Orders\obj\Debug\net10.0\GoodHamburger.Domain.Orders.csproj.CoreCompileInputs.cache
+C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburger.Domain.Orders\obj\Debug\net10.0\GoodHamburger.Domain.Orders.sourcelink.json
+C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburger.Domain.Orders\obj\Debug\net10.0\GoodHamb.7989CA1F.Up2Date
+C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburger.Domain.Orders\obj\Debug\net10.0\GoodHamburger.Domain.Orders.dll
+C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburger.Domain.Orders\obj\Debug\net10.0\refint\GoodHamburger.Domain.Orders.dll
+C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburger.Domain.Orders\obj\Debug\net10.0\GoodHamburger.Domain.Orders.pdb
+C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburger.Domain.Orders\obj\Debug\net10.0\ref\GoodHamburger.Domain.Orders.dll

@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
     "net10.0": {
       "FluentValidation/12.1.1": {
@@ -102,10 +102,10 @@
       "Microsoft.EntityFrameworkCore.Analyzers/10.0.6": {
         "type": "package"
       },
-      "Microsoft.EntityFrameworkCore.Relational/10.0.4": {
+      "Microsoft.EntityFrameworkCore.Relational/10.0.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "10.0.4"
+          "Microsoft.EntityFrameworkCore": "10.0.6"
         },
         "compile": {
           "lib/net10.0/Microsoft.EntityFrameworkCore.Relational.dll": {
@@ -273,6 +273,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
+          "GoodHamburger.Application.Products": "1.0.0",
           "GoodHamburger.Domain.Orders": "1.0.0",
           "GoodHamburger.Domain.Shared": "1.0.0",
           "Microsoft.EntityFrameworkCore": "10.0.6",
@@ -297,7 +298,10 @@
         },
         "runtime": {
           "bin/placeholder/GoodHamburger.Presentation.Orders.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "GoodHamburger.Presentation.Products/1.0.0": {
         "type": "project",
@@ -443,10 +447,10 @@
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Relational/10.0.4": {
-      "sha512": "DOTjTHy93W3TwpMLM4SCm0n57Sc0Jj3+m2S6LSTstKyBB34eT1UouaMS19mpWwvtj42+sRiEjA3+rOTNoNzXFQ==",
+    "Microsoft.EntityFrameworkCore.Relational/10.0.6": {
+      "sha512": "t+pXPUjiAemBTstY57yUAoywOO6znVD3lwy7UERJpji0wmS70XHg0h8EcpX6+7KT6ZVCIndr1pW0GdOobZ4yCg==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.relational/10.0.4",
+      "path": "microsoft.entityframeworkcore.relational/10.0.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -454,7 +458,7 @@
         "PACKAGE.md",
         "lib/net10.0/Microsoft.EntityFrameworkCore.Relational.dll",
         "lib/net10.0/Microsoft.EntityFrameworkCore.Relational.xml",
-        "microsoft.entityframeworkcore.relational.10.0.4.nupkg.sha512",
+        "microsoft.entityframeworkcore.relational.10.0.6.nupkg.sha512",
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
@@ -593,48 +597,57 @@
       "GoodHamburger.Presentation.Products >= 1.0.0",
       "GoodHamburger.Presentation.Shared >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 10.0.5",
+      "Microsoft.EntityFrameworkCore.Relational >= 10.0.6",
       "Scalar.AspNetCore >= 2.14.1"
     ]
   },
   "packageFolders": {
-    "/home/john/.nuget/packages/": {}
+    "C:\\Users\\Barba\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Presentation.Api/GoodHamburger.Presentation.Api.csproj",
+      "projectUniqueName": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Api\\GoodHamburger.Presentation.Api.csproj",
       "projectName": "GoodHamburger.Presentation.Api",
-      "projectPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Presentation.Api/GoodHamburger.Presentation.Api.csproj",
-      "packagesPath": "/home/john/.nuget/packages/",
-      "outputPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Presentation.Api/obj/",
+      "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Api\\GoodHamburger.Presentation.Api.csproj",
+      "packagesPath": "C:\\Users\\Barba\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Api\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/john/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Barba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Orders/GoodHamburger.Application.Orders.csproj": {
-              "projectPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Orders/GoodHamburger.Application.Orders.csproj"
+            "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Orders\\GoodHamburger.Application.Orders.csproj": {
+              "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Orders\\GoodHamburger.Application.Orders.csproj"
             },
-            "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Infrastructure.PostgreSQL/GoodHamburger.Infrastructure.PostgreSQL.csproj": {
-              "projectPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Infrastructure.PostgreSQL/GoodHamburger.Infrastructure.PostgreSQL.csproj"
+            "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Infrastructure.PostgreSQL\\GoodHamburger.Infrastructure.PostgreSQL.csproj": {
+              "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Infrastructure.PostgreSQL\\GoodHamburger.Infrastructure.PostgreSQL.csproj"
             },
-            "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Presentation.Orders/GoodHamburger.Presentation.Orders.csproj": {
-              "projectPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Presentation.Orders/GoodHamburger.Presentation.Orders.csproj"
+            "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Orders\\GoodHamburger.Presentation.Orders.csproj": {
+              "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Orders\\GoodHamburger.Presentation.Orders.csproj"
             },
-            "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Presentation.Products/GoodHamburger.Presentation.Products.csproj": {
-              "projectPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Presentation.Products/GoodHamburger.Presentation.Products.csproj"
+            "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Products\\GoodHamburger.Presentation.Products.csproj": {
+              "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Products\\GoodHamburger.Presentation.Products.csproj"
             },
-            "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Presentation.Shared/GoodHamburger.Presentation.Shared.csproj": {
-              "projectPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Presentation.Shared/GoodHamburger.Presentation.Shared.csproj"
+            "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Shared\\GoodHamburger.Presentation.Shared.csproj": {
+              "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Shared\\GoodHamburger.Presentation.Shared.csproj"
             }
           }
         }
@@ -649,15 +662,20 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.200"
+      "SdkAnalysisLevel": "10.0.300"
     },
     "frameworks": {
       "net10.0": {
+        "framework": "net10.0",
         "targetAlias": "net10.0",
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[10.0.5, )"
+          },
+          "Microsoft.EntityFrameworkCore.Relational": {
+            "target": "Package",
+            "version": "[10.0.6, )"
           },
           "Scalar.AspNetCore": {
             "target": "Package",
@@ -683,7 +701,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/john/.dotnet/sdk/10.0.201/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300-preview.0.26177.108/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

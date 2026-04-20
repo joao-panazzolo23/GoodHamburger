@@ -1,0 +1,12 @@
+C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburger.Contracts\bin\Debug\net10.0\GoodHamburger.Contracts.deps.json
+C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburger.Contracts\bin\Debug\net10.0\GoodHamburger.Contracts.dll
+C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburger.Contracts\bin\Debug\net10.0\GoodHamburger.Contracts.pdb
+C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburger.Contracts\obj\Debug\net10.0\GoodHamburger.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburger.Contracts\obj\Debug\net10.0\GoodHamburger.Contracts.AssemblyInfoInputs.cache
+C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburger.Contracts\obj\Debug\net10.0\GoodHamburger.Contracts.AssemblyInfo.cs
+C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburger.Contracts\obj\Debug\net10.0\GoodHamburger.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburger.Contracts\obj\Debug\net10.0\GoodHamburger.Contracts.sourcelink.json
+C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburger.Contracts\obj\Debug\net10.0\GoodHamburger.Contracts.dll
+C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburger.Contracts\obj\Debug\net10.0\refint\GoodHamburger.Contracts.dll
+C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburger.Contracts\obj\Debug\net10.0\GoodHamburger.Contracts.pdb
+C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburger.Contracts\obj\Debug\net10.0\ref\GoodHamburger.Contracts.dll

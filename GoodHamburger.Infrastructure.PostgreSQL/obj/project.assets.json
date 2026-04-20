@@ -1,7 +1,37 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
     "net10.0": {
+      "FluentValidation/12.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "FluentValidation.DependencyInjectionExtensions/12.1.1": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "12.1.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.0"
+        },
+        "compile": {
+          "lib/net8.0/FluentValidation.DependencyInjectionExtensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/FluentValidation.DependencyInjectionExtensions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -11,6 +41,22 @@
         },
         "runtime": {
           "lib/net6.0/Humanizer.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Mediator.Abstractions/3.1.0-rc.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.0"
+        },
+        "compile": {
+          "lib/net10.0/Mediator.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Mediator.dll": {
             "related": ".xml"
           }
         }
@@ -766,6 +812,49 @@
           "buildTransitive/net8.0/Microsoft.Extensions.Options.targets": {}
         }
       },
+      "Microsoft.Extensions.Options.ConfigurationExtensions/10.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "10.0.6",
+          "Microsoft.Extensions.Configuration.Binder": "10.0.6",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.6",
+          "Microsoft.Extensions.Options": "10.0.6",
+          "Microsoft.Extensions.Primitives": "10.0.6"
+        },
+        "compile": {
+          "lib/net10.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Options.DataAnnotations/10.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.6",
+          "Microsoft.Extensions.Options": "10.0.6"
+        },
+        "compile": {
+          "lib/net10.0/Microsoft.Extensions.Options.DataAnnotations.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.Extensions.Options.DataAnnotations.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "Microsoft.Extensions.Primitives/10.0.6": {
         "type": "package",
         "compile": {
@@ -983,6 +1072,46 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
+      "GoodHamburger.Application.Products/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "GoodHamburger.Application.Shared": "1.0.0",
+          "GoodHamburger.Contracts": "1.0.0",
+          "GoodHamburger.Domain.Products": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GoodHamburger.Application.Products.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GoodHamburger.Application.Products.dll": {}
+        }
+      },
+      "GoodHamburger.Application.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "FluentValidation": "12.1.1",
+          "FluentValidation.DependencyInjectionExtensions": "12.1.1",
+          "Mediator.Abstractions": "3.1.0-rc.1"
+        },
+        "compile": {
+          "bin/placeholder/GoodHamburger.Application.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GoodHamburger.Application.Shared.dll": {}
+        }
+      },
+      "GoodHamburger.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/GoodHamburger.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GoodHamburger.Contracts.dll": {}
+        }
+      },
       "GoodHamburger.Domain.Orders/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
@@ -994,6 +1123,19 @@
         },
         "runtime": {
           "bin/placeholder/GoodHamburger.Domain.Orders.dll": {}
+        }
+      },
+      "GoodHamburger.Domain.Products/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "GoodHamburger.Domain.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GoodHamburger.Domain.Products.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GoodHamburger.Domain.Products.dll": {}
         }
       },
       "GoodHamburger.Domain.Shared/1.0.0": {
@@ -1009,6 +1151,36 @@
     }
   },
   "libraries": {
+    "FluentValidation/12.1.1": {
+      "sha512": "EPpkIe1yh1a0OXyC100oOA8WMbZvqUu5plwhvYcb7oSELfyUZzfxV48BLhvs3kKo4NwG7MGLNgy1RJiYtT8Dpw==",
+      "type": "package",
+      "path": "fluentvalidation/12.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.12.1.1.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net8.0/FluentValidation.dll",
+        "lib/net8.0/FluentValidation.xml"
+      ]
+    },
+    "FluentValidation.DependencyInjectionExtensions/12.1.1": {
+      "sha512": "D0VXh4dtjjX2aQizuaa0g6R8X3U1JaVqJPfGCvLwZX9t/O2h7tkpbitbadQMfwcgSPdDbI2vDxuwRMv/Uf9dHA==",
+      "type": "package",
+      "path": "fluentvalidation.dependencyinjectionextensions/12.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
+        "fluentvalidation.dependencyinjectionextensions.nuspec",
+        "lib/net8.0/FluentValidation.DependencyInjectionExtensions.dll",
+        "lib/net8.0/FluentValidation.DependencyInjectionExtensions.xml"
+      ]
+    },
     "Humanizer.Core/2.14.1": {
       "sha512": "lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "type": "package",
@@ -1025,6 +1197,27 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "Mediator.Abstractions/3.1.0-rc.1": {
+      "sha512": "iIjr4GZ3HuRfUqwsCHKxXJxP5gVQ3g/xeExH3i73081gpBm/40yz3BoOyAVoLrqneh2TCftQhAzaaZwBukvJXQ==",
+      "type": "package",
+      "path": "mediator.abstractions/3.1.0-rc.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "lib/net10.0/Mediator.dll",
+        "lib/net10.0/Mediator.xml",
+        "lib/net8.0/Mediator.dll",
+        "lib/net8.0/Mediator.xml",
+        "lib/net9.0/Mediator.dll",
+        "lib/net9.0/Mediator.xml",
+        "lib/netstandard2.0/Mediator.dll",
+        "lib/netstandard2.0/Mediator.xml",
+        "mediator.abstractions.3.1.0-rc.1.nupkg.sha512",
+        "mediator.abstractions.nuspec"
       ]
     },
     "Microsoft.Build.Framework/18.0.2": {
@@ -2756,6 +2949,66 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Microsoft.Extensions.Options.ConfigurationExtensions/10.0.6": {
+      "sha512": "O7xt1vYMxku2+/WpFkh6X8RzUtYbKR+XCt0KOO0W9TbRbFeQdfb9Nry/CdVq57kOyOKS3Z4qD1xqV/8LpJQ0Xw==",
+      "type": "package",
+      "path": "microsoft.extensions.options.configurationextensions/10.0.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Options.ConfigurationExtensions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Options.ConfigurationExtensions.targets",
+        "lib/net10.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "lib/net10.0/Microsoft.Extensions.Options.ConfigurationExtensions.xml",
+        "lib/net462/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "lib/net462/Microsoft.Extensions.Options.ConfigurationExtensions.xml",
+        "lib/net8.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "lib/net8.0/Microsoft.Extensions.Options.ConfigurationExtensions.xml",
+        "lib/net9.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "lib/net9.0/Microsoft.Extensions.Options.ConfigurationExtensions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.ConfigurationExtensions.xml",
+        "microsoft.extensions.options.configurationextensions.10.0.6.nupkg.sha512",
+        "microsoft.extensions.options.configurationextensions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Options.DataAnnotations/10.0.6": {
+      "sha512": "xZHgg0OlFTKmuyz8GB9W1SQ+EBM5JGqILktBz929yBkMjLJBUwtLUWYAGrw3nKA/t7FZueuurkVPWrvk77tW9g==",
+      "type": "package",
+      "path": "microsoft.extensions.options.dataannotations/10.0.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Options.DataAnnotations.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Options.DataAnnotations.targets",
+        "lib/net10.0/Microsoft.Extensions.Options.DataAnnotations.dll",
+        "lib/net10.0/Microsoft.Extensions.Options.DataAnnotations.xml",
+        "lib/net462/Microsoft.Extensions.Options.DataAnnotations.dll",
+        "lib/net462/Microsoft.Extensions.Options.DataAnnotations.xml",
+        "lib/net8.0/Microsoft.Extensions.Options.DataAnnotations.dll",
+        "lib/net8.0/Microsoft.Extensions.Options.DataAnnotations.xml",
+        "lib/net9.0/Microsoft.Extensions.Options.DataAnnotations.dll",
+        "lib/net9.0/Microsoft.Extensions.Options.DataAnnotations.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.DataAnnotations.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.DataAnnotations.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.Options.DataAnnotations.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.Options.DataAnnotations.xml",
+        "microsoft.extensions.options.dataannotations.10.0.6.nupkg.sha512",
+        "microsoft.extensions.options.dataannotations.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "Microsoft.Extensions.Primitives/10.0.6": {
       "sha512": "L8P21mqaG+CXvPheLndean/cHCOcItJqH8nx+0YQnK7wAiOR0G1IOC418ZSzTMD2D6Gmo0f2M5WR70XtpX2B8g==",
       "type": "package",
@@ -3070,10 +3323,30 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "GoodHamburger.Application.Products/1.0.0": {
+      "type": "project",
+      "path": "../GoodHamburger.Application.Products/GoodHamburger.Application.Products.csproj",
+      "msbuildProject": "../GoodHamburger.Application.Products/GoodHamburger.Application.Products.csproj"
+    },
+    "GoodHamburger.Application.Shared/1.0.0": {
+      "type": "project",
+      "path": "../GoodHamburger.Application.Shared/GoodHamburger.Application.Shared.csproj",
+      "msbuildProject": "../GoodHamburger.Application.Shared/GoodHamburger.Application.Shared.csproj"
+    },
+    "GoodHamburger.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../GoodHamburger.Contracts/GoodHamburger.Contracts.csproj",
+      "msbuildProject": "../GoodHamburger.Contracts/GoodHamburger.Contracts.csproj"
+    },
     "GoodHamburger.Domain.Orders/1.0.0": {
       "type": "project",
       "path": "../GoodHamburger.Domain.Orders/GoodHamburger.Domain.Orders.csproj",
       "msbuildProject": "../GoodHamburger.Domain.Orders/GoodHamburger.Domain.Orders.csproj"
+    },
+    "GoodHamburger.Domain.Products/1.0.0": {
+      "type": "project",
+      "path": "../GoodHamburger.Domain.Products/GoodHamburger.Domain.Products.csproj",
+      "msbuildProject": "../GoodHamburger.Domain.Products/GoodHamburger.Domain.Products.csproj"
     },
     "GoodHamburger.Domain.Shared/1.0.0": {
       "type": "project",
@@ -3083,6 +3356,7 @@
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "GoodHamburger.Application.Products >= 1.0.0",
       "GoodHamburger.Domain.Orders >= 1.0.0",
       "GoodHamburger.Domain.Shared >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 10.0.6",
@@ -3092,39 +3366,52 @@
       "Microsoft.Extensions.Configuration.FileExtensions >= 10.0.6",
       "Microsoft.Extensions.Configuration.Json >= 10.0.6",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 10.0.6",
+      "Microsoft.Extensions.Options.ConfigurationExtensions >= 10.0.6",
+      "Microsoft.Extensions.Options.DataAnnotations >= 10.0.6",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 10.0.1"
     ]
   },
   "packageFolders": {
-    "/home/john/.nuget/packages/": {}
+    "C:\\Users\\Barba\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Infrastructure.PostgreSQL/GoodHamburger.Infrastructure.PostgreSQL.csproj",
+      "projectUniqueName": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Infrastructure.PostgreSQL\\GoodHamburger.Infrastructure.PostgreSQL.csproj",
       "projectName": "GoodHamburger.Infrastructure.PostgreSQL",
-      "projectPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Infrastructure.PostgreSQL/GoodHamburger.Infrastructure.PostgreSQL.csproj",
-      "packagesPath": "/home/john/.nuget/packages/",
-      "outputPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Infrastructure.PostgreSQL/obj/",
+      "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Infrastructure.PostgreSQL\\GoodHamburger.Infrastructure.PostgreSQL.csproj",
+      "packagesPath": "C:\\Users\\Barba\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Infrastructure.PostgreSQL\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/john/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Barba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Orders/GoodHamburger.Domain.Orders.csproj": {
-              "projectPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Orders/GoodHamburger.Domain.Orders.csproj"
+            "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Products\\GoodHamburger.Application.Products.csproj": {
+              "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Products\\GoodHamburger.Application.Products.csproj"
             },
-            "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Shared/GoodHamburger.Domain.Shared.csproj": {
-              "projectPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Shared/GoodHamburger.Domain.Shared.csproj"
+            "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Orders\\GoodHamburger.Domain.Orders.csproj": {
+              "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Orders\\GoodHamburger.Domain.Orders.csproj"
+            },
+            "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Shared\\GoodHamburger.Domain.Shared.csproj": {
+              "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Shared\\GoodHamburger.Domain.Shared.csproj"
             }
           }
         }
@@ -3139,10 +3426,11 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.200"
+      "SdkAnalysisLevel": "10.0.300"
     },
     "frameworks": {
       "net10.0": {
+        "framework": "net10.0",
         "targetAlias": "net10.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
@@ -3175,6 +3463,14 @@
             "target": "Package",
             "version": "[10.0.6, )"
           },
+          "Microsoft.Extensions.Options.ConfigurationExtensions": {
+            "target": "Package",
+            "version": "[10.0.6, )"
+          },
+          "Microsoft.Extensions.Options.DataAnnotations": {
+            "target": "Package",
+            "version": "[10.0.6, )"
+          },
           "Npgsql.EntityFrameworkCore.PostgreSQL": {
             "target": "Package",
             "version": "[10.0.1, )"
@@ -3196,7 +3492,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/john/.dotnet/sdk/10.0.201/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300-preview.0.26177.108/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "sxkhJ/RUoec=",
+  "dgSpecHash": "kH8OChgw4kI=",
   "success": true,
-  "projectFilePath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Orders/GoodHamburger.Application.Orders.csproj",
+  "projectFilePath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Orders\\GoodHamburger.Application.Orders.csproj",
   "expectedPackageFiles": [
-    "/home/john/.nuget/packages/fluentvalidation/12.1.1/fluentvalidation.12.1.1.nupkg.sha512",
-    "/home/john/.nuget/packages/fluentvalidation.dependencyinjectionextensions/12.1.1/fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
-    "/home/john/.nuget/packages/mediator.abstractions/3.1.0-rc.1/mediator.abstractions.3.1.0-rc.1.nupkg.sha512",
-    "/home/john/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.0/microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512"
+    "C:\\Users\\Barba\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
+    "C:\\Users\\Barba\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.1.1\\fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
+    "C:\\Users\\Barba\\.nuget\\packages\\mediator.abstractions\\3.1.0-rc.1\\mediator.abstractions.3.1.0-rc.1.nupkg.sha512",
+    "C:\\Users\\Barba\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0\\microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512"
   ],
   "logs": []
 }

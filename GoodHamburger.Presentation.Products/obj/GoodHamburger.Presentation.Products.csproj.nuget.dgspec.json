@@ -1,39 +1,46 @@
 {
   "format": 1,
   "restore": {
-    "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Presentation.Products/GoodHamburger.Presentation.Products.csproj": {}
+    "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Products\\GoodHamburger.Presentation.Products.csproj": {}
   },
   "projects": {
-    "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Products/GoodHamburger.Application.Products.csproj": {
+    "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Products\\GoodHamburger.Application.Products.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Products/GoodHamburger.Application.Products.csproj",
+        "projectUniqueName": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Products\\GoodHamburger.Application.Products.csproj",
         "projectName": "GoodHamburger.Application.Products",
-        "projectPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Products/GoodHamburger.Application.Products.csproj",
-        "packagesPath": "/home/john/.nuget/packages/",
-        "outputPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Products/obj/",
+        "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Products\\GoodHamburger.Application.Products.csproj",
+        "packagesPath": "C:\\Users\\Barba\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Products\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/john/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Barba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Shared/GoodHamburger.Application.Shared.csproj": {
-                "projectPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Shared/GoodHamburger.Application.Shared.csproj"
+              "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Shared\\GoodHamburger.Application.Shared.csproj": {
+                "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Shared\\GoodHamburger.Application.Shared.csproj"
               },
-              "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Contracts/GoodHamburger.Contracts.csproj": {
-                "projectPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Contracts/GoodHamburger.Contracts.csproj"
+              "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Contracts\\GoodHamburger.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Contracts\\GoodHamburger.Contracts.csproj"
               },
-              "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Products/GoodHamburger.Domain.Products.csproj": {
-                "projectPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Products/GoodHamburger.Domain.Products.csproj"
+              "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Products\\GoodHamburger.Domain.Products.csproj": {
+                "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Products\\GoodHamburger.Domain.Products.csproj"
               }
             }
           }
@@ -48,10 +55,11 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
@@ -69,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/john/.dotnet/sdk/10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300-preview.0.26177.108/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -347,26 +355,33 @@
         }
       }
     },
-    "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Shared/GoodHamburger.Application.Shared.csproj": {
+    "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Shared\\GoodHamburger.Application.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Shared/GoodHamburger.Application.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Shared\\GoodHamburger.Application.Shared.csproj",
         "projectName": "GoodHamburger.Application.Shared",
-        "projectPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Shared/GoodHamburger.Application.Shared.csproj",
-        "packagesPath": "/home/john/.nuget/packages/",
-        "outputPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Shared/obj/",
+        "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Shared\\GoodHamburger.Application.Shared.csproj",
+        "packagesPath": "C:\\Users\\Barba\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Shared\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/john/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Barba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -381,10 +396,11 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
             "FluentValidation": {
@@ -422,7 +438,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/john/.dotnet/sdk/10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300-preview.0.26177.108/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -700,26 +716,33 @@
         }
       }
     },
-    "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Contracts/GoodHamburger.Contracts.csproj": {
+    "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Contracts\\GoodHamburger.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Contracts/GoodHamburger.Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Contracts\\GoodHamburger.Contracts.csproj",
         "projectName": "GoodHamburger.Contracts",
-        "projectPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Contracts/GoodHamburger.Contracts.csproj",
-        "packagesPath": "/home/john/.nuget/packages/",
-        "outputPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Contracts/obj/",
+        "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Contracts\\GoodHamburger.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Barba\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Contracts\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/john/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Barba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -734,10 +757,11 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
@@ -755,7 +779,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/john/.dotnet/sdk/10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300-preview.0.26177.108/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -1033,30 +1057,37 @@
         }
       }
     },
-    "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Products/GoodHamburger.Domain.Products.csproj": {
+    "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Products\\GoodHamburger.Domain.Products.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Products/GoodHamburger.Domain.Products.csproj",
+        "projectUniqueName": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Products\\GoodHamburger.Domain.Products.csproj",
         "projectName": "GoodHamburger.Domain.Products",
-        "projectPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Products/GoodHamburger.Domain.Products.csproj",
-        "packagesPath": "/home/john/.nuget/packages/",
-        "outputPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Products/obj/",
+        "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Products\\GoodHamburger.Domain.Products.csproj",
+        "packagesPath": "C:\\Users\\Barba\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Products\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/john/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Barba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Shared/GoodHamburger.Domain.Shared.csproj": {
-                "projectPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Shared/GoodHamburger.Domain.Shared.csproj"
+              "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Shared\\GoodHamburger.Domain.Shared.csproj": {
+                "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Shared\\GoodHamburger.Domain.Shared.csproj"
               }
             }
           }
@@ -1071,10 +1102,11 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
@@ -1092,7 +1124,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/john/.dotnet/sdk/10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300-preview.0.26177.108/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -1370,26 +1402,33 @@
         }
       }
     },
-    "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Shared/GoodHamburger.Domain.Shared.csproj": {
+    "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Shared\\GoodHamburger.Domain.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Shared/GoodHamburger.Domain.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Shared\\GoodHamburger.Domain.Shared.csproj",
         "projectName": "GoodHamburger.Domain.Shared",
-        "projectPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Shared/GoodHamburger.Domain.Shared.csproj",
-        "packagesPath": "/home/john/.nuget/packages/",
-        "outputPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Shared/obj/",
+        "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Shared\\GoodHamburger.Domain.Shared.csproj",
+        "packagesPath": "C:\\Users\\Barba\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Shared\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/john/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Barba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -1404,10 +1443,11 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
@@ -1425,7 +1465,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/john/.dotnet/sdk/10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300-preview.0.26177.108/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -1703,33 +1743,40 @@
         }
       }
     },
-    "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Presentation.Products/GoodHamburger.Presentation.Products.csproj": {
+    "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Products\\GoodHamburger.Presentation.Products.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Presentation.Products/GoodHamburger.Presentation.Products.csproj",
+        "projectUniqueName": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Products\\GoodHamburger.Presentation.Products.csproj",
         "projectName": "GoodHamburger.Presentation.Products",
-        "projectPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Presentation.Products/GoodHamburger.Presentation.Products.csproj",
-        "packagesPath": "/home/john/.nuget/packages/",
-        "outputPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Presentation.Products/obj/",
+        "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Products\\GoodHamburger.Presentation.Products.csproj",
+        "packagesPath": "C:\\Users\\Barba\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Products\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/john/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Barba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Products/GoodHamburger.Application.Products.csproj": {
-                "projectPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Products/GoodHamburger.Application.Products.csproj"
+              "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Products\\GoodHamburger.Application.Products.csproj": {
+                "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Products\\GoodHamburger.Application.Products.csproj"
               },
-              "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Presentation.Shared/GoodHamburger.Presentation.Shared.csproj": {
-                "projectPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Presentation.Shared/GoodHamburger.Presentation.Shared.csproj"
+              "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Shared\\GoodHamburger.Presentation.Shared.csproj": {
+                "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Shared\\GoodHamburger.Presentation.Shared.csproj"
               }
             }
           }
@@ -1744,10 +1791,11 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
@@ -1765,7 +1813,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/john/.dotnet/sdk/10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300-preview.0.26177.108/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -2043,26 +2091,33 @@
         }
       }
     },
-    "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Presentation.Shared/GoodHamburger.Presentation.Shared.csproj": {
+    "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Shared\\GoodHamburger.Presentation.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Presentation.Shared/GoodHamburger.Presentation.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Shared\\GoodHamburger.Presentation.Shared.csproj",
         "projectName": "GoodHamburger.Presentation.Shared",
-        "projectPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Presentation.Shared/GoodHamburger.Presentation.Shared.csproj",
-        "packagesPath": "/home/john/.nuget/packages/",
-        "outputPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Presentation.Shared/obj/",
+        "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Shared\\GoodHamburger.Presentation.Shared.csproj",
+        "packagesPath": "C:\\Users\\Barba\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Shared\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/john/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Barba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -2077,10 +2132,11 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
             "Mediator.Abstractions": {
@@ -2092,6 +2148,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.0-rc.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.3.9, )"
             }
           },
           "imports": [
@@ -2110,7 +2170,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/john/.dotnet/sdk/10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300-preview.0.26177.108/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

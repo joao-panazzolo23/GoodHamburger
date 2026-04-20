@@ -17,10 +17,13 @@
       <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="10.0.6" />
       <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="10.0.6" />
       <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.6" />
+      <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="10.0.6" />
+      <PackageReference Include="Microsoft.Extensions.Options.DataAnnotations" Version="10.0.6" />
       <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="10.0.1" />
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\GoodHamburger.Application.Products\GoodHamburger.Application.Products.csproj" />
       <ProjectReference Include="..\GoodHamburger.Domain.Orders\GoodHamburger.Domain.Orders.csproj" />
       <ProjectReference Include="..\GoodHamburger.Domain.Shared\GoodHamburger.Domain.Shared.csproj" />
     </ItemGroup>

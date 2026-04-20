@@ -1,3 +1,4 @@
+using GoodHamburger.Application.Products.Entities;
 using GoodHamburger.Domain.Order.Entities;
 using GoodHamburger.Domain.Shared.Entities;
 using Microsoft.EntityFrameworkCore;
@@ -9,6 +10,7 @@ public class AppDbContext(
 ) : Microsoft.EntityFrameworkCore.DbContext(options)
 {
     public DbSet<Order> Orders { get; set; }
+    public DbSet<Product> Products { get; set; }
 
     protected override void OnModelCreating(ModelBuilder builder)
     {

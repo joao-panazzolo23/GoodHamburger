@@ -1,39 +1,46 @@
 {
   "format": 1,
   "restore": {
-    "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Presentation.Orders/GoodHamburger.Presentation.Orders.csproj": {}
+    "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Orders\\GoodHamburger.Presentation.Orders.csproj": {}
   },
   "projects": {
-    "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Orders/GoodHamburger.Application.Orders.csproj": {
+    "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Orders\\GoodHamburger.Application.Orders.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Orders/GoodHamburger.Application.Orders.csproj",
+        "projectUniqueName": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Orders\\GoodHamburger.Application.Orders.csproj",
         "projectName": "GoodHamburger.Application.Orders",
-        "projectPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Orders/GoodHamburger.Application.Orders.csproj",
-        "packagesPath": "/home/john/.nuget/packages/",
-        "outputPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Orders/obj/",
+        "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Orders\\GoodHamburger.Application.Orders.csproj",
+        "packagesPath": "C:\\Users\\Barba\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Orders\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/john/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Barba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Shared/GoodHamburger.Application.Shared.csproj": {
-                "projectPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Shared/GoodHamburger.Application.Shared.csproj"
+              "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Shared\\GoodHamburger.Application.Shared.csproj": {
+                "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Shared\\GoodHamburger.Application.Shared.csproj"
               },
-              "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Orders/GoodHamburger.Domain.Orders.csproj": {
-                "projectPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Orders/GoodHamburger.Domain.Orders.csproj"
+              "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Orders\\GoodHamburger.Domain.Orders.csproj": {
+                "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Orders\\GoodHamburger.Domain.Orders.csproj"
               },
-              "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Shared/GoodHamburger.Domain.Shared.csproj": {
-                "projectPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Shared/GoodHamburger.Domain.Shared.csproj"
+              "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Shared\\GoodHamburger.Domain.Shared.csproj": {
+                "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Shared\\GoodHamburger.Domain.Shared.csproj"
               }
             }
           }
@@ -48,10 +55,11 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
@@ -69,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/john/.dotnet/sdk/10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300-preview.0.26177.108/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -347,26 +355,33 @@
         }
       }
     },
-    "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Shared/GoodHamburger.Application.Shared.csproj": {
+    "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Shared\\GoodHamburger.Application.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Shared/GoodHamburger.Application.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Shared\\GoodHamburger.Application.Shared.csproj",
         "projectName": "GoodHamburger.Application.Shared",
-        "projectPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Shared/GoodHamburger.Application.Shared.csproj",
-        "packagesPath": "/home/john/.nuget/packages/",
-        "outputPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Shared/obj/",
+        "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Shared\\GoodHamburger.Application.Shared.csproj",
+        "packagesPath": "C:\\Users\\Barba\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Shared\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/john/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Barba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -381,10 +396,11 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
             "FluentValidation": {
@@ -422,7 +438,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/john/.dotnet/sdk/10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300-preview.0.26177.108/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -700,30 +716,37 @@
         }
       }
     },
-    "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Orders/GoodHamburger.Domain.Orders.csproj": {
+    "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Orders\\GoodHamburger.Domain.Orders.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Orders/GoodHamburger.Domain.Orders.csproj",
+        "projectUniqueName": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Orders\\GoodHamburger.Domain.Orders.csproj",
         "projectName": "GoodHamburger.Domain.Orders",
-        "projectPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Orders/GoodHamburger.Domain.Orders.csproj",
-        "packagesPath": "/home/john/.nuget/packages/",
-        "outputPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Orders/obj/",
+        "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Orders\\GoodHamburger.Domain.Orders.csproj",
+        "packagesPath": "C:\\Users\\Barba\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Orders\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/john/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Barba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Shared/GoodHamburger.Domain.Shared.csproj": {
-                "projectPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Shared/GoodHamburger.Domain.Shared.csproj"
+              "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Shared\\GoodHamburger.Domain.Shared.csproj": {
+                "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Shared\\GoodHamburger.Domain.Shared.csproj"
               }
             }
           }
@@ -738,10 +761,11 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
@@ -759,7 +783,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/john/.dotnet/sdk/10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300-preview.0.26177.108/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -1037,26 +1061,33 @@
         }
       }
     },
-    "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Shared/GoodHamburger.Domain.Shared.csproj": {
+    "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Shared\\GoodHamburger.Domain.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Shared/GoodHamburger.Domain.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Shared\\GoodHamburger.Domain.Shared.csproj",
         "projectName": "GoodHamburger.Domain.Shared",
-        "projectPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Shared/GoodHamburger.Domain.Shared.csproj",
-        "packagesPath": "/home/john/.nuget/packages/",
-        "outputPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Domain.Shared/obj/",
+        "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Shared\\GoodHamburger.Domain.Shared.csproj",
+        "packagesPath": "C:\\Users\\Barba\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Shared\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/john/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Barba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -1071,10 +1102,11 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
@@ -1092,7 +1124,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/john/.dotnet/sdk/10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300-preview.0.26177.108/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -1370,33 +1402,40 @@
         }
       }
     },
-    "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Presentation.Orders/GoodHamburger.Presentation.Orders.csproj": {
+    "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Orders\\GoodHamburger.Presentation.Orders.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Presentation.Orders/GoodHamburger.Presentation.Orders.csproj",
+        "projectUniqueName": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Orders\\GoodHamburger.Presentation.Orders.csproj",
         "projectName": "GoodHamburger.Presentation.Orders",
-        "projectPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Presentation.Orders/GoodHamburger.Presentation.Orders.csproj",
-        "packagesPath": "/home/john/.nuget/packages/",
-        "outputPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Presentation.Orders/obj/",
+        "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Orders\\GoodHamburger.Presentation.Orders.csproj",
+        "packagesPath": "C:\\Users\\Barba\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Orders\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/john/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Barba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Orders/GoodHamburger.Application.Orders.csproj": {
-                "projectPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Application.Orders/GoodHamburger.Application.Orders.csproj"
+              "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Orders\\GoodHamburger.Application.Orders.csproj": {
+                "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Orders\\GoodHamburger.Application.Orders.csproj"
               },
-              "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Presentation.Shared/GoodHamburger.Presentation.Shared.csproj": {
-                "projectPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Presentation.Shared/GoodHamburger.Presentation.Shared.csproj"
+              "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Shared\\GoodHamburger.Presentation.Shared.csproj": {
+                "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Shared\\GoodHamburger.Presentation.Shared.csproj"
               }
             }
           }
@@ -1411,10 +1450,11 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
@@ -1428,13 +1468,152 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/john/.dotnet/sdk/10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300-preview.0.26177.108/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
+            "Microsoft.AspNetCore": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
+            "Microsoft.AspNetCore.App": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Authentication": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Authentication.Abstractions": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Authentication.BearerToken": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Authentication.Cookies": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Authentication.Core": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Authentication.OAuth": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Authorization": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Authorization.Policy": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Components": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Components.Authorization": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Components.Endpoints": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Components.Forms": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Components.Server": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Components.Web": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Connections.Abstractions": "(,10.0.32767]",
+            "Microsoft.AspNetCore.CookiePolicy": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Cors": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Cryptography.Internal": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Cryptography.KeyDerivation": "(,10.0.32767]",
+            "Microsoft.AspNetCore.DataProtection": "(,10.0.32767]",
+            "Microsoft.AspNetCore.DataProtection.Abstractions": "(,10.0.32767]",
+            "Microsoft.AspNetCore.DataProtection.Extensions": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Diagnostics": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Diagnostics.Abstractions": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Diagnostics.HealthChecks": "(,10.0.32767]",
+            "Microsoft.AspNetCore.HostFiltering": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Hosting": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Hosting.Abstractions": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Hosting.Server.Abstractions": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Html.Abstractions": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Http": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Http.Abstractions": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Http.Connections": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Http.Connections.Common": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Http.Extensions": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Http.Features": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Http.Results": "(,10.0.32767]",
+            "Microsoft.AspNetCore.HttpLogging": "(,10.0.32767]",
+            "Microsoft.AspNetCore.HttpOverrides": "(,10.0.32767]",
+            "Microsoft.AspNetCore.HttpsPolicy": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Identity": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Localization": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Localization.Routing": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Metadata": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Mvc": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Mvc.Abstractions": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Mvc.ApiExplorer": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Mvc.Core": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Mvc.Cors": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Mvc.DataAnnotations": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Mvc.Formatters.Json": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Mvc.Formatters.Xml": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Mvc.Localization": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Mvc.Razor": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Mvc.RazorPages": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Mvc.TagHelpers": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Mvc.ViewFeatures": "(,10.0.32767]",
+            "Microsoft.AspNetCore.OutputCaching": "(,10.0.32767]",
+            "Microsoft.AspNetCore.RateLimiting": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Razor": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Razor.Runtime": "(,10.0.32767]",
+            "Microsoft.AspNetCore.RequestDecompression": "(,10.0.32767]",
+            "Microsoft.AspNetCore.ResponseCaching": "(,10.0.32767]",
+            "Microsoft.AspNetCore.ResponseCaching.Abstractions": "(,10.0.32767]",
+            "Microsoft.AspNetCore.ResponseCompression": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Rewrite": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Routing": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Routing.Abstractions": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Server.HttpSys": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Server.IIS": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Server.IISIntegration": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Server.Kestrel": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Server.Kestrel.Core": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Server.Kestrel.Transport.NamedPipes": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Server.Kestrel.Transport.Quic": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets": "(,10.0.32767]",
+            "Microsoft.AspNetCore.Session": "(,10.0.32767]",
+            "Microsoft.AspNetCore.SignalR": "(,10.0.32767]",
+            "Microsoft.AspNetCore.SignalR.Common": "(,10.0.32767]",
+            "Microsoft.AspNetCore.SignalR.Core": "(,10.0.32767]",
+            "Microsoft.AspNetCore.SignalR.Protocols.Json": "(,10.0.32767]",
+            "Microsoft.AspNetCore.StaticAssets": "(,10.0.32767]",
+            "Microsoft.AspNetCore.StaticFiles": "(,10.0.32767]",
+            "Microsoft.AspNetCore.WebSockets": "(,10.0.32767]",
+            "Microsoft.AspNetCore.WebUtilities": "(,10.0.32767]",
             "Microsoft.CSharp": "(,4.7.32767]",
+            "Microsoft.Extensions.Caching.Abstractions": "(,10.0.32767]",
+            "Microsoft.Extensions.Caching.Memory": "(,10.0.32767]",
+            "Microsoft.Extensions.Configuration": "(,10.0.32767]",
+            "Microsoft.Extensions.Configuration.Abstractions": "(,10.0.32767]",
+            "Microsoft.Extensions.Configuration.Binder": "(,10.0.32767]",
+            "Microsoft.Extensions.Configuration.CommandLine": "(,10.0.32767]",
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": "(,10.0.32767]",
+            "Microsoft.Extensions.Configuration.FileExtensions": "(,10.0.32767]",
+            "Microsoft.Extensions.Configuration.Ini": "(,10.0.32767]",
+            "Microsoft.Extensions.Configuration.Json": "(,10.0.32767]",
+            "Microsoft.Extensions.Configuration.KeyPerFile": "(,10.0.32767]",
+            "Microsoft.Extensions.Configuration.UserSecrets": "(,10.0.32767]",
+            "Microsoft.Extensions.Configuration.Xml": "(,10.0.32767]",
+            "Microsoft.Extensions.DependencyInjection": "(,10.0.32767]",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "(,10.0.32767]",
+            "Microsoft.Extensions.Diagnostics": "(,10.0.32767]",
+            "Microsoft.Extensions.Diagnostics.Abstractions": "(,10.0.32767]",
+            "Microsoft.Extensions.Diagnostics.HealthChecks": "(,10.0.32767]",
+            "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions": "(,10.0.32767]",
+            "Microsoft.Extensions.Features": "(,10.0.32767]",
+            "Microsoft.Extensions.FileProviders.Abstractions": "(,10.0.32767]",
+            "Microsoft.Extensions.FileProviders.Composite": "(,10.0.32767]",
+            "Microsoft.Extensions.FileProviders.Physical": "(,10.0.32767]",
+            "Microsoft.Extensions.FileSystemGlobbing": "(,10.0.32767]",
+            "Microsoft.Extensions.Hosting": "(,10.0.32767]",
+            "Microsoft.Extensions.Hosting.Abstractions": "(,10.0.32767]",
+            "Microsoft.Extensions.Http": "(,10.0.32767]",
+            "Microsoft.Extensions.Identity.Core": "(,10.0.32767]",
+            "Microsoft.Extensions.Identity.Stores": "(,10.0.32767]",
+            "Microsoft.Extensions.Localization": "(,10.0.32767]",
+            "Microsoft.Extensions.Localization.Abstractions": "(,10.0.32767]",
+            "Microsoft.Extensions.Logging": "(,10.0.32767]",
+            "Microsoft.Extensions.Logging.Abstractions": "(,10.0.32767]",
+            "Microsoft.Extensions.Logging.Configuration": "(,10.0.32767]",
+            "Microsoft.Extensions.Logging.Console": "(,10.0.32767]",
+            "Microsoft.Extensions.Logging.Debug": "(,10.0.32767]",
+            "Microsoft.Extensions.Logging.EventLog": "(,10.0.32767]",
+            "Microsoft.Extensions.Logging.EventSource": "(,10.0.32767]",
+            "Microsoft.Extensions.Logging.TraceSource": "(,10.0.32767]",
+            "Microsoft.Extensions.ObjectPool": "(,10.0.32767]",
+            "Microsoft.Extensions.Options": "(,10.0.32767]",
+            "Microsoft.Extensions.Options.ConfigurationExtensions": "(,10.0.32767]",
+            "Microsoft.Extensions.Options.DataAnnotations": "(,10.0.32767]",
+            "Microsoft.Extensions.Primitives": "(,10.0.32767]",
+            "Microsoft.Extensions.Validation": "(,10.0.32767]",
+            "Microsoft.Extensions.WebEncoders": "(,10.0.32767]",
+            "Microsoft.JSInterop": "(,10.0.32767]",
+            "Microsoft.Net.Http.Headers": "(,10.0.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
             "Microsoft.Win32.Primitives": "(,4.3.32767]",
             "Microsoft.Win32.Registry": "(,5.0.32767]",
@@ -1594,6 +1773,7 @@
             "System.Diagnostics.Contracts": "(,4.3.32767]",
             "System.Diagnostics.Debug": "(,4.3.32767]",
             "System.Diagnostics.DiagnosticSource": "(,10.0.32767]",
+            "System.Diagnostics.EventLog": "(,10.0.32767]",
             "System.Diagnostics.FileVersionInfo": "(,4.3.32767]",
             "System.Diagnostics.Process": "(,4.3.32767]",
             "System.Diagnostics.StackTrace": "(,4.3.32767]",
@@ -1604,6 +1784,7 @@
             "System.Drawing.Primitives": "(,4.3.32767]",
             "System.Dynamic.Runtime": "(,4.3.32767]",
             "System.Formats.Asn1": "(,10.0.32767]",
+            "System.Formats.Cbor": "(,10.0.32767]",
             "System.Formats.Tar": "(,10.0.32767]",
             "System.Globalization": "(,4.3.32767]",
             "System.Globalization.Calendars": "(,4.3.32767]",
@@ -1679,6 +1860,7 @@
             "System.Security.Cryptography.OpenSsl": "(,5.0.32767]",
             "System.Security.Cryptography.Primitives": "(,4.3.32767]",
             "System.Security.Cryptography.X509Certificates": "(,4.3.32767]",
+            "System.Security.Cryptography.Xml": "(,10.0.32767]",
             "System.Security.Principal": "(,4.3.32767]",
             "System.Security.Principal.Windows": "(,5.0.32767]",
             "System.Security.SecureString": "(,4.3.32767]",
@@ -1692,6 +1874,7 @@
             "System.Threading.AccessControl": "(,10.0.32767]",
             "System.Threading.Channels": "(,10.0.32767]",
             "System.Threading.Overlapped": "(,4.3.32767]",
+            "System.Threading.RateLimiting": "(,10.0.32767]",
             "System.Threading.Tasks": "(,4.3.32767]",
             "System.Threading.Tasks.Dataflow": "(,10.0.32767]",
             "System.Threading.Tasks.Extensions": "(,5.0.32767]",
@@ -1710,26 +1893,33 @@
         }
       }
     },
-    "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Presentation.Shared/GoodHamburger.Presentation.Shared.csproj": {
+    "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Shared\\GoodHamburger.Presentation.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Presentation.Shared/GoodHamburger.Presentation.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Shared\\GoodHamburger.Presentation.Shared.csproj",
         "projectName": "GoodHamburger.Presentation.Shared",
-        "projectPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Presentation.Shared/GoodHamburger.Presentation.Shared.csproj",
-        "packagesPath": "/home/john/.nuget/packages/",
-        "outputPath": "/home/john/RiderProjects/GoodHamburger/GoodHamburger.Presentation.Shared/obj/",
+        "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Shared\\GoodHamburger.Presentation.Shared.csproj",
+        "packagesPath": "C:\\Users\\Barba\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Shared\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/john/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Barba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -1744,10 +1934,11 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
             "Mediator.Abstractions": {
@@ -1759,6 +1950,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.0-rc.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.3.9, )"
             }
           },
           "imports": [
@@ -1777,7 +1972,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/john/.dotnet/sdk/10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300-preview.0.26177.108/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

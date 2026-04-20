@@ -1,9 +1,11 @@
+using GoodHamburger.Application.Products.Repositories;
 using GoodHamburger.Domain.Order.Repositories;
 using GoodHamburger.Domain.Shared.Data;
 using GoodHamburger.Infrastructure.PostgreSQL.Data;
 using GoodHamburger.Infrastructure.PostgreSQL.DbContext;
 using GoodHamburger.Infrastructure.PostgreSQL.Options;
-using GoodHamburger.Infrastructure.PostgreSQL.Repositories.Order;
+using GoodHamburger.Infrastructure.PostgreSQL.Repositories.Orders;
+using GoodHamburger.Infrastructure.PostgreSQL.Repositories.Products;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -18,12 +20,27 @@ public static class PostgreSqlExtensions
     {
         AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 
-        return services.AddDbContext(configuration)
-                .AddRepositories()
+
+
+        return services
+            .ConfigureDbOptions()
+            .AddDbContext()
+            .AddRepositories()
             ;
     }
+    private static IServiceCollection ConfigureDbOptions(this IServiceCollection services)
+    {
+        services.AddOptions<DatabaseOptions>()
+                .BindConfiguration("ConnectionStrings")
+                .ValidateDataAnnotations()
+                .ValidateOnStart();
 
-    private static IServiceCollection AddDbContext(this IServiceCollection services, IConfiguration configuration)
+        return services;
+    }
+
+
+    private static IServiceCollection AddDbContext(
+        this IServiceCollection services)
     {
         services.AddDbContext<AppDbContext>((sp, options) =>
         {
@@ -36,13 +53,12 @@ public static class PostgreSqlExtensions
 
         return services;
     }
-
-    //todo: add repositories DI 
     private static IServiceCollection AddRepositories(this IServiceCollection services)
     {
         return services
                 .AddScoped<IUnityOfWork, UnityOfWork>()
                 .AddScoped<IOrderRepository, OrderRepository>()
+                .AddScoped<IProductRepository, ProductRepository>()
             ;
     }
 

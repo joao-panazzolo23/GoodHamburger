@@ -2,7 +2,7 @@ using GoodHamburger.Domain.Order.Repositories;
 using GoodHamburger.Infrastructure.PostgreSQL.DbContext;
 using Microsoft.EntityFrameworkCore;
 
-namespace GoodHamburger.Infrastructure.PostgreSQL.Repositories.Order;
+namespace GoodHamburger.Infrastructure.PostgreSQL.Repositories.Orders;
 
 public class OrderRepository(AppDbContext context) : IOrderRepository
 {

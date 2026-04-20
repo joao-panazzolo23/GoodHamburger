@@ -1,0 +1,12 @@
+C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburguer.Infrastructure.PostgreSqlDapper\bin\Debug\net10.0\GoodHamburguer.Infrastructure.PostgreSqlDapper.deps.json
+C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburguer.Infrastructure.PostgreSqlDapper\bin\Debug\net10.0\GoodHamburguer.Infrastructure.PostgreSqlDapper.dll
+C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburguer.Infrastructure.PostgreSqlDapper\bin\Debug\net10.0\GoodHamburguer.Infrastructure.PostgreSqlDapper.pdb
+C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburguer.Infrastructure.PostgreSqlDapper\obj\Debug\net10.0\GoodHamburguer.Infrastructure.PostgreSqlDapper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburguer.Infrastructure.PostgreSqlDapper\obj\Debug\net10.0\GoodHamburguer.Infrastructure.PostgreSqlDapper.AssemblyInfoInputs.cache
+C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburguer.Infrastructure.PostgreSqlDapper\obj\Debug\net10.0\GoodHamburguer.Infrastructure.PostgreSqlDapper.AssemblyInfo.cs
+C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburguer.Infrastructure.PostgreSqlDapper\obj\Debug\net10.0\GoodHamburguer.Infrastructure.PostgreSqlDapper.csproj.CoreCompileInputs.cache
+C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburguer.Infrastructure.PostgreSqlDapper\obj\Debug\net10.0\GoodHamburguer.Infrastructure.PostgreSqlDapper.sourcelink.json
+C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburguer.Infrastructure.PostgreSqlDapper\obj\Debug\net10.0\GoodHamburguer.Infrastructure.PostgreSqlDapper.dll
+C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburguer.Infrastructure.PostgreSqlDapper\obj\Debug\net10.0\refint\GoodHamburguer.Infrastructure.PostgreSqlDapper.dll
+C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburguer.Infrastructure.PostgreSqlDapper\obj\Debug\net10.0\GoodHamburguer.Infrastructure.PostgreSqlDapper.pdb
+C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburguer.Infrastructure.PostgreSqlDapper\obj\Debug\net10.0\ref\GoodHamburguer.Infrastructure.PostgreSqlDapper.dll
