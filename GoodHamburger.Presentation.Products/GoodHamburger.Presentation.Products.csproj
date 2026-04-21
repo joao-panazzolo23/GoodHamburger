@@ -7,7 +7,6 @@
 		<RootNamespace>GoodHamburger.Presentation.Product</RootNamespace>
 	</PropertyGroup>
 	<ItemGroup>
-		<ProjectReference Include="..\GoodHamburger.Application.Products\GoodHamburger.Application.Products.csproj" />
 		<ProjectReference Include="..\GoodHamburger.Presentation.Shared\GoodHamburger.Presentation.Shared.csproj" />
 	</ItemGroup>
 

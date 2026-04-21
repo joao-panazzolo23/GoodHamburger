@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GoodHamburger.Domain.Products")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+498c8af35b938b8af9ee0419bab6b7dc1c0fbac1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b846cb3fd66e680b7a1c2751c850486d930c33c5")]
 [assembly: System.Reflection.AssemblyProductAttribute("GoodHamburger.Domain.Products")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GoodHamburger.Domain.Products")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

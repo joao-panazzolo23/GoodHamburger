@@ -22,3 +22,27 @@ C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburger.Presentation.Order
 C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburger.Presentation.Orders\obj\Debug\net10.0\refint\GoodHamburger.Presentation.Orders.dll
 C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburger.Presentation.Orders\obj\Debug\net10.0\GoodHamburger.Presentation.Orders.pdb
 C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburger.Presentation.Orders\obj\Debug\net10.0\ref\GoodHamburger.Presentation.Orders.dll
+C:\Users\Barba\source\repos\GoodHamburger\GoodHamburger.Presentation.Orders\bin\Debug\net10.0\GoodHamburger.Presentation.Orders.deps.json
+C:\Users\Barba\source\repos\GoodHamburger\GoodHamburger.Presentation.Orders\bin\Debug\net10.0\GoodHamburger.Presentation.Orders.dll
+C:\Users\Barba\source\repos\GoodHamburger\GoodHamburger.Presentation.Orders\bin\Debug\net10.0\GoodHamburger.Presentation.Orders.pdb
+C:\Users\Barba\source\repos\GoodHamburger\GoodHamburger.Presentation.Orders\bin\Debug\net10.0\GoodHamburger.Application.Orders.dll
+C:\Users\Barba\source\repos\GoodHamburger\GoodHamburger.Presentation.Orders\bin\Debug\net10.0\GoodHamburger.Application.Shared.dll
+C:\Users\Barba\source\repos\GoodHamburger\GoodHamburger.Presentation.Orders\bin\Debug\net10.0\GoodHamburger.Domain.Orders.dll
+C:\Users\Barba\source\repos\GoodHamburger\GoodHamburger.Presentation.Orders\bin\Debug\net10.0\GoodHamburger.Domain.Shared.dll
+C:\Users\Barba\source\repos\GoodHamburger\GoodHamburger.Presentation.Orders\bin\Debug\net10.0\GoodHamburger.Presentation.Shared.dll
+C:\Users\Barba\source\repos\GoodHamburger\GoodHamburger.Presentation.Orders\bin\Debug\net10.0\GoodHamburger.Application.Orders.pdb
+C:\Users\Barba\source\repos\GoodHamburger\GoodHamburger.Presentation.Orders\bin\Debug\net10.0\GoodHamburger.Presentation.Shared.pdb
+C:\Users\Barba\source\repos\GoodHamburger\GoodHamburger.Presentation.Orders\bin\Debug\net10.0\GoodHamburger.Application.Shared.pdb
+C:\Users\Barba\source\repos\GoodHamburger\GoodHamburger.Presentation.Orders\bin\Debug\net10.0\GoodHamburger.Domain.Orders.pdb
+C:\Users\Barba\source\repos\GoodHamburger\GoodHamburger.Presentation.Orders\bin\Debug\net10.0\GoodHamburger.Domain.Shared.pdb
+C:\Users\Barba\source\repos\GoodHamburger\GoodHamburger.Presentation.Orders\obj\Debug\net10.0\GoodHamburger.Presentation.Orders.csproj.AssemblyReference.cache
+C:\Users\Barba\source\repos\GoodHamburger\GoodHamburger.Presentation.Orders\obj\Debug\net10.0\GoodHamburger.Presentation.Orders.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Barba\source\repos\GoodHamburger\GoodHamburger.Presentation.Orders\obj\Debug\net10.0\GoodHamburger.Presentation.Orders.AssemblyInfoInputs.cache
+C:\Users\Barba\source\repos\GoodHamburger\GoodHamburger.Presentation.Orders\obj\Debug\net10.0\GoodHamburger.Presentation.Orders.AssemblyInfo.cs
+C:\Users\Barba\source\repos\GoodHamburger\GoodHamburger.Presentation.Orders\obj\Debug\net10.0\GoodHamburger.Presentation.Orders.csproj.CoreCompileInputs.cache
+C:\Users\Barba\source\repos\GoodHamburger\GoodHamburger.Presentation.Orders\obj\Debug\net10.0\GoodHamburger.Presentation.Orders.sourcelink.json
+C:\Users\Barba\source\repos\GoodHamburger\GoodHamburger.Presentation.Orders\obj\Debug\net10.0\GoodHamb.4D5951BF.Up2Date
+C:\Users\Barba\source\repos\GoodHamburger\GoodHamburger.Presentation.Orders\obj\Debug\net10.0\GoodHamburger.Presentation.Orders.dll
+C:\Users\Barba\source\repos\GoodHamburger\GoodHamburger.Presentation.Orders\obj\Debug\net10.0\refint\GoodHamburger.Presentation.Orders.dll
+C:\Users\Barba\source\repos\GoodHamburger\GoodHamburger.Presentation.Orders\obj\Debug\net10.0\GoodHamburger.Presentation.Orders.pdb
+C:\Users\Barba\source\repos\GoodHamburger\GoodHamburger.Presentation.Orders\obj\Debug\net10.0\ref\GoodHamburger.Presentation.Orders.dll

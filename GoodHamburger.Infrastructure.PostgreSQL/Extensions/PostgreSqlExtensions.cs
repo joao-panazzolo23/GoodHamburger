@@ -1,5 +1,5 @@
-using GoodHamburger.Application.Products.Repositories;
-using GoodHamburger.Domain.Order.Repositories;
+using GoodHamburger.Domain.Order.Orders.Repositories;
+using GoodHamburger.Domain.Order.Products.Repositories;
 using GoodHamburger.Domain.Shared.Data;
 using GoodHamburger.Infrastructure.PostgreSQL.Data;
 using GoodHamburger.Infrastructure.PostgreSQL.DbContext;
@@ -7,7 +7,6 @@ using GoodHamburger.Infrastructure.PostgreSQL.Options;
 using GoodHamburger.Infrastructure.PostgreSQL.Repositories.Orders;
 using GoodHamburger.Infrastructure.PostgreSQL.Repositories.Products;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 
@@ -16,11 +15,9 @@ namespace GoodHamburger.Infrastructure.PostgreSQL.Extensions;
 public static class PostgreSqlExtensions
 {
     public static IServiceCollection AddPostgreSqlDb(
-        this IServiceCollection services, IConfiguration configuration)
+        this IServiceCollection services)
     {
         AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
-
-
 
         return services
             .ConfigureDbOptions()

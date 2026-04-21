@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "WDWvcPAYPtk=",
+  "dgSpecHash": "syWJ4DXGO08=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Api\\GoodHamburger.Presentation.Api.csproj",
+  "projectFilePath": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Presentation.Api\\GoodHamburger.Presentation.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Barba\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
     "C:\\Users\\Barba\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.1.1\\fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
-    "C:\\Users\\Barba\\.nuget\\packages\\mediator.abstractions\\3.1.0-rc.1\\mediator.abstractions.3.1.0-rc.1.nupkg.sha512",
+    "C:\\Users\\Barba\\.nuget\\packages\\mediator.abstractions\\3.0.2\\mediator.abstractions.3.0.2.nupkg.sha512",
+    "C:\\Users\\Barba\\.nuget\\packages\\mediator.sourcegenerator\\3.0.2\\mediator.sourcegenerator.3.0.2.nupkg.sha512",
     "C:\\Users\\Barba\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.5\\microsoft.aspnetcore.openapi.10.0.5.nupkg.sha512",
     "C:\\Users\\Barba\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.6\\microsoft.entityframeworkcore.10.0.6.nupkg.sha512",
     "C:\\Users\\Barba\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\10.0.6\\microsoft.entityframeworkcore.abstractions.10.0.6.nupkg.sha512",

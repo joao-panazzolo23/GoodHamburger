@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
     <PropertyGroup>
         <TargetFramework>net10.0</TargetFramework>
@@ -7,17 +7,19 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="Mediator.Abstractions" Version="3.0.2" />
+        <PackageReference Include="Mediator.SourceGenerator" Version="3.0.2">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.5" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="10.0.6" />
         <PackageReference Include="Scalar.AspNetCore" Version="2.14.1" />
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\GoodHamburger.Application.Orders\GoodHamburger.Application.Orders.csproj" />
+      <ProjectReference Include="..\GoodHamburger.Application.Orders\GoodHamburger.Application.csproj" />
       <ProjectReference Include="..\GoodHamburger.Infrastructure.PostgreSQL\GoodHamburger.Infrastructure.PostgreSQL.csproj" />
-      <ProjectReference Include="..\GoodHamburger.Presentation.Orders\GoodHamburger.Presentation.Orders.csproj" />
-      <ProjectReference Include="..\GoodHamburger.Presentation.Products\GoodHamburger.Presentation.Products.csproj" />
-      <ProjectReference Include="..\GoodHamburger.Presentation.Shared\GoodHamburger.Presentation.Shared.csproj" />
     </ItemGroup>
 
 </Project>

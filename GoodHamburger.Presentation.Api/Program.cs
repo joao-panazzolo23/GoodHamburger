@@ -1,14 +1,16 @@
-using GoodHamburger.Application.Shared.Extensions;
+using GoodHamburger.Application.Extensions;
 using GoodHamburger.Presentation.Api.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services
-    .AddDatabase(builder.Configuration)
+    .AddDatabase()
     .AddDocumentation(builder.Environment)
     .AddValidators()
     .AddExceptions()
-    .AddAllApplicationParts()
+    .AddMediatorService()
+    .AddControllerWithOptions()
+    .AddApplicationServices()
     ;
 
 var app = builder.Build();

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pdiw5pAOHd8=",
+  "dgSpecHash": "4o0jEK6tzUQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Products\\GoodHamburger.Application.Products.csproj",
+  "projectFilePath": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Application.Products\\GoodHamburger.Application.Products.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Barba\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
     "C:\\Users\\Barba\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.1.1\\fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",

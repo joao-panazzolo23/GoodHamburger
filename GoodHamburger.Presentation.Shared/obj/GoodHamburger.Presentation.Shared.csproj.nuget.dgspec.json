@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Shared\\GoodHamburger.Presentation.Shared.csproj": {}
+    "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Presentation.Shared\\GoodHamburger.Presentation.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Shared\\GoodHamburger.Presentation.Shared.csproj": {
+    "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Presentation.Shared\\GoodHamburger.Presentation.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Shared\\GoodHamburger.Presentation.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Presentation.Shared\\GoodHamburger.Presentation.Shared.csproj",
         "projectName": "GoodHamburger.Presentation.Shared",
-        "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Shared\\GoodHamburger.Presentation.Shared.csproj",
+        "projectPath": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Presentation.Shared\\GoodHamburger.Presentation.Shared.csproj",
         "packagesPath": "C:\\Users\\Barba\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Shared\\obj\\",
+        "outputPath": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Presentation.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

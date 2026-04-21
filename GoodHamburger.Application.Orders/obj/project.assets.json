@@ -32,64 +32,49 @@
           }
         }
       },
-      "Mediator.Abstractions/3.1.0-rc.1": {
+      "Mediator.Abstractions/3.0.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
         },
         "compile": {
-          "lib/net10.0/Mediator.dll": {
+          "lib/net8.0/Mediator.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net10.0/Mediator.dll": {
+          "lib/net8.0/Mediator.dll": {
             "related": ".xml"
           }
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.0": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
         "type": "package",
         "compile": {
-          "lib/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
             "related": ".xml"
           }
         },
         "build": {
-          "buildTransitive/net8.0/_._": {}
+          "buildTransitive/net6.0/_._": {}
         }
       },
-      "GoodHamburger.Application.Shared/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v10.0",
-        "dependencies": {
-          "FluentValidation": "12.1.1",
-          "FluentValidation.DependencyInjectionExtensions": "12.1.1",
-          "Mediator.Abstractions": "3.1.0-rc.1"
-        },
-        "compile": {
-          "bin/placeholder/GoodHamburger.Application.Shared.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/GoodHamburger.Application.Shared.dll": {}
-        }
-      },
-      "GoodHamburger.Domain.Orders/1.0.0": {
+      "GoodHamburger.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
           "GoodHamburger.Domain.Shared": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/GoodHamburger.Domain.Orders.dll": {}
+          "bin/placeholder/GoodHamburger.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/GoodHamburger.Domain.Orders.dll": {}
+          "bin/placeholder/GoodHamburger.Domain.dll": {}
         }
       },
       "GoodHamburger.Domain.Shared/1.0.0": {
@@ -135,67 +120,59 @@
         "lib/net8.0/FluentValidation.DependencyInjectionExtensions.xml"
       ]
     },
-    "Mediator.Abstractions/3.1.0-rc.1": {
-      "sha512": "iIjr4GZ3HuRfUqwsCHKxXJxP5gVQ3g/xeExH3i73081gpBm/40yz3BoOyAVoLrqneh2TCftQhAzaaZwBukvJXQ==",
+    "Mediator.Abstractions/3.0.2": {
+      "sha512": "TytjnyN8gLObZBxkM7HHPFJF3LHtk6Y8mHW56ONuXRuVEK6Fmed3f0z79H9TpmoZQP2zQAIS4/0O9R2w0v02qw==",
       "type": "package",
-      "path": "mediator.abstractions/3.1.0-rc.1",
+      "path": "mediator.abstractions/3.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
         "README.md",
-        "lib/net10.0/Mediator.dll",
-        "lib/net10.0/Mediator.xml",
         "lib/net8.0/Mediator.dll",
         "lib/net8.0/Mediator.xml",
-        "lib/net9.0/Mediator.dll",
-        "lib/net9.0/Mediator.xml",
         "lib/netstandard2.0/Mediator.dll",
         "lib/netstandard2.0/Mediator.xml",
-        "mediator.abstractions.3.1.0-rc.1.nupkg.sha512",
+        "mediator.abstractions.3.0.2.nupkg.sha512",
         "mediator.abstractions.nuspec"
       ]
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.0": {
-      "sha512": "L3AdmZ1WOK4XXT5YFPEwyt0ep6l8lGIPs7F5OOBZc77Zqeo01Of7XXICy47628sdVl0v/owxYJTe86DTgFwKCA==",
+    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
+      "sha512": "cjWrLkJXK0rs4zofsK4bSdg+jhDLTaxrkXu4gS6Y7MAlCvRyNNgwY/lJi5RDlQOnSZweHqoyvgvbdvQsRIW+hg==",
       "type": "package",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/10.0.0",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
+        "LICENSE.TXT",
         "PACKAGE.md",
         "THIRD-PARTY-NOTICES.TXT",
         "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
         "buildTransitive/net462/_._",
-        "buildTransitive/net8.0/_._",
+        "buildTransitive/net6.0/_._",
         "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
-        "lib/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
-        "lib/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
         "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
         "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
-        "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
-        "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
-        "microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.abstractions.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
-    "GoodHamburger.Application.Shared/1.0.0": {
+    "GoodHamburger.Domain/1.0.0": {
       "type": "project",
-      "path": "../GoodHamburger.Application.Shared/GoodHamburger.Application.Shared.csproj",
-      "msbuildProject": "../GoodHamburger.Application.Shared/GoodHamburger.Application.Shared.csproj"
-    },
-    "GoodHamburger.Domain.Orders/1.0.0": {
-      "type": "project",
-      "path": "../GoodHamburger.Domain.Orders/GoodHamburger.Domain.Orders.csproj",
-      "msbuildProject": "../GoodHamburger.Domain.Orders/GoodHamburger.Domain.Orders.csproj"
+      "path": "../GoodHamburger.Domain.Orders/GoodHamburger.Domain.csproj",
+      "msbuildProject": "../GoodHamburger.Domain.Orders/GoodHamburger.Domain.csproj"
     },
     "GoodHamburger.Domain.Shared/1.0.0": {
       "type": "project",
@@ -205,9 +182,11 @@
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "GoodHamburger.Application.Shared >= 1.0.0",
-      "GoodHamburger.Domain.Orders >= 1.0.0",
-      "GoodHamburger.Domain.Shared >= 1.0.0"
+      "FluentValidation >= 12.1.1",
+      "FluentValidation.DependencyInjectionExtensions >= 12.1.1",
+      "GoodHamburger.Domain >= 1.0.0",
+      "GoodHamburger.Domain.Shared >= 1.0.0",
+      "Mediator.Abstractions >= 3.0.2"
     ]
   },
   "packageFolders": {
@@ -217,11 +196,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Orders\\GoodHamburger.Application.Orders.csproj",
-      "projectName": "GoodHamburger.Application.Orders",
-      "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Orders\\GoodHamburger.Application.Orders.csproj",
+      "projectUniqueName": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Application.Orders\\GoodHamburger.Application.csproj",
+      "projectName": "GoodHamburger.Application",
+      "projectPath": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Application.Orders\\GoodHamburger.Application.csproj",
       "packagesPath": "C:\\Users\\Barba\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Orders\\obj\\",
+      "outputPath": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Application.Orders\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -243,14 +222,11 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Shared\\GoodHamburger.Application.Shared.csproj": {
-              "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Shared\\GoodHamburger.Application.Shared.csproj"
+            "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Domain.Orders\\GoodHamburger.Domain.csproj": {
+              "projectPath": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Domain.Orders\\GoodHamburger.Domain.csproj"
             },
-            "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Orders\\GoodHamburger.Domain.Orders.csproj": {
-              "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Orders\\GoodHamburger.Domain.Orders.csproj"
-            },
-            "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Shared\\GoodHamburger.Domain.Shared.csproj": {
-              "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Shared\\GoodHamburger.Domain.Shared.csproj"
+            "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Domain.Shared\\GoodHamburger.Domain.Shared.csproj": {
+              "projectPath": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Domain.Shared\\GoodHamburger.Domain.Shared.csproj"
             }
           }
         }
@@ -271,6 +247,20 @@
       "net10.0": {
         "framework": "net10.0",
         "targetAlias": "net10.0",
+        "dependencies": {
+          "FluentValidation": {
+            "target": "Package",
+            "version": "[12.1.1, )"
+          },
+          "FluentValidation.DependencyInjectionExtensions": {
+            "target": "Package",
+            "version": "[12.1.1, )"
+          },
+          "Mediator.Abstractions": {
+            "target": "Package",
+            "version": "[3.0.2, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

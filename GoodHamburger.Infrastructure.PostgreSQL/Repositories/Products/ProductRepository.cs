@@ -1,5 +1,5 @@
-﻿using GoodHamburger.Application.Products.Entities;
-using GoodHamburger.Application.Products.Repositories;
+﻿using GoodHamburger.Domain.Order.Products.Entities;
+using GoodHamburger.Domain.Order.Products.Repositories;
 using GoodHamburger.Infrastructure.PostgreSQL.DbContext;
 using Microsoft.EntityFrameworkCore;
 

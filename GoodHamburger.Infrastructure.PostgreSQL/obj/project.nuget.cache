@@ -1,13 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "vYhw8NgfIQE=",
+  "dgSpecHash": "eRS+wl36D1Y=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Infrastructure.PostgreSQL\\GoodHamburger.Infrastructure.PostgreSQL.csproj",
+  "projectFilePath": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Infrastructure.PostgreSQL\\GoodHamburger.Infrastructure.PostgreSQL.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Barba\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
-    "C:\\Users\\Barba\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.1.1\\fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
     "C:\\Users\\Barba\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
-    "C:\\Users\\Barba\\.nuget\\packages\\mediator.abstractions\\3.1.0-rc.1\\mediator.abstractions.3.1.0-rc.1.nupkg.sha512",
     "C:\\Users\\Barba\\.nuget\\packages\\microsoft.build.framework\\18.0.2\\microsoft.build.framework.18.0.2.nupkg.sha512",
     "C:\\Users\\Barba\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.11.0\\microsoft.codeanalysis.analyzers.3.11.0.nupkg.sha512",
     "C:\\Users\\Barba\\.nuget\\packages\\microsoft.codeanalysis.common\\5.0.0\\microsoft.codeanalysis.common.5.0.0.nupkg.sha512",

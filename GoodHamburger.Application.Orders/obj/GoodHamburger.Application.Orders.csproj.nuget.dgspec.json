@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Orders\\GoodHamburger.Application.Orders.csproj": {}
+    "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Application.Orders\\GoodHamburger.Application.Orders.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Orders\\GoodHamburger.Application.Orders.csproj": {
+    "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Application.Orders\\GoodHamburger.Application.Orders.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Orders\\GoodHamburger.Application.Orders.csproj",
+        "projectUniqueName": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Application.Orders\\GoodHamburger.Application.Orders.csproj",
         "projectName": "GoodHamburger.Application.Orders",
-        "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Orders\\GoodHamburger.Application.Orders.csproj",
+        "projectPath": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Application.Orders\\GoodHamburger.Application.Orders.csproj",
         "packagesPath": "C:\\Users\\Barba\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Orders\\obj\\",
+        "outputPath": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Application.Orders\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,14 +33,14 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Shared\\GoodHamburger.Application.Shared.csproj": {
-                "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Shared\\GoodHamburger.Application.Shared.csproj"
+              "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Application.Shared\\GoodHamburger.Application.Shared.csproj": {
+                "projectPath": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Application.Shared\\GoodHamburger.Application.Shared.csproj"
               },
-              "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Orders\\GoodHamburger.Domain.Orders.csproj": {
-                "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Orders\\GoodHamburger.Domain.Orders.csproj"
+              "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Domain.Orders\\GoodHamburger.Domain.Orders.csproj": {
+                "projectPath": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Domain.Orders\\GoodHamburger.Domain.Orders.csproj"
               },
-              "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Shared\\GoodHamburger.Domain.Shared.csproj": {
-                "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Shared\\GoodHamburger.Domain.Shared.csproj"
+              "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Domain.Shared\\GoodHamburger.Domain.Shared.csproj": {
+                "projectPath": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Domain.Shared\\GoodHamburger.Domain.Shared.csproj"
               }
             }
           }
@@ -355,14 +355,14 @@
         }
       }
     },
-    "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Shared\\GoodHamburger.Application.Shared.csproj": {
+    "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Application.Shared\\GoodHamburger.Application.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Shared\\GoodHamburger.Application.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Application.Shared\\GoodHamburger.Application.Shared.csproj",
         "projectName": "GoodHamburger.Application.Shared",
-        "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Shared\\GoodHamburger.Application.Shared.csproj",
+        "projectPath": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Application.Shared\\GoodHamburger.Application.Shared.csproj",
         "packagesPath": "C:\\Users\\Barba\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Shared\\obj\\",
+        "outputPath": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Application.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -716,14 +716,14 @@
         }
       }
     },
-    "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Orders\\GoodHamburger.Domain.Orders.csproj": {
+    "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Domain.Orders\\GoodHamburger.Domain.Orders.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Orders\\GoodHamburger.Domain.Orders.csproj",
+        "projectUniqueName": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Domain.Orders\\GoodHamburger.Domain.Orders.csproj",
         "projectName": "GoodHamburger.Domain.Orders",
-        "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Orders\\GoodHamburger.Domain.Orders.csproj",
+        "projectPath": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Domain.Orders\\GoodHamburger.Domain.Orders.csproj",
         "packagesPath": "C:\\Users\\Barba\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Orders\\obj\\",
+        "outputPath": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Domain.Orders\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -745,8 +745,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Shared\\GoodHamburger.Domain.Shared.csproj": {
-                "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Shared\\GoodHamburger.Domain.Shared.csproj"
+              "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Domain.Shared\\GoodHamburger.Domain.Shared.csproj": {
+                "projectPath": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Domain.Shared\\GoodHamburger.Domain.Shared.csproj"
               }
             }
           }
@@ -1061,14 +1061,14 @@
         }
       }
     },
-    "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Shared\\GoodHamburger.Domain.Shared.csproj": {
+    "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Domain.Shared\\GoodHamburger.Domain.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Shared\\GoodHamburger.Domain.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Domain.Shared\\GoodHamburger.Domain.Shared.csproj",
         "projectName": "GoodHamburger.Domain.Shared",
-        "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Shared\\GoodHamburger.Domain.Shared.csproj",
+        "projectPath": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Domain.Shared\\GoodHamburger.Domain.Shared.csproj",
         "packagesPath": "C:\\Users\\Barba\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Domain.Shared\\obj\\",
+        "outputPath": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Domain.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

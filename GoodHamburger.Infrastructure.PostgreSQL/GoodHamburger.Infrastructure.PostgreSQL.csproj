@@ -23,9 +23,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\GoodHamburger.Application.Products\GoodHamburger.Application.Products.csproj" />
-      <ProjectReference Include="..\GoodHamburger.Domain.Orders\GoodHamburger.Domain.Orders.csproj" />
-      <ProjectReference Include="..\GoodHamburger.Domain.Shared\GoodHamburger.Domain.Shared.csproj" />
+      <ProjectReference Include="..\GoodHamburger.Domain.Orders\GoodHamburger.Domain.csproj" />
     </ItemGroup>
 
 </Project>

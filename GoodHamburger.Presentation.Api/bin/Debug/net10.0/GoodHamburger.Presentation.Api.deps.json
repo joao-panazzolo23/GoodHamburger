@@ -8,11 +8,9 @@
     ".NETCoreApp,Version=v10.0": {
       "GoodHamburger.Presentation.Api/1.0.0": {
         "dependencies": {
-          "GoodHamburger.Application.Orders": "1.0.0",
+          "GoodHamburger.Application": "1.0.0",
           "GoodHamburger.Infrastructure.PostgreSQL": "1.0.0",
-          "GoodHamburger.Presentation.Orders": "1.0.0",
-          "GoodHamburger.Presentation.Products": "1.0.0",
-          "GoodHamburger.Presentation.Shared": "1.0.0",
+          "Mediator.Abstractions": "3.0.2",
           "Microsoft.AspNetCore.OpenApi": "10.0.5",
           "Microsoft.EntityFrameworkCore.Relational": "10.0.6",
           "Scalar.AspNetCore": "2.14.1"
@@ -40,11 +38,11 @@
           }
         }
       },
-      "Mediator.Abstractions/3.1.0-rc.1": {
+      "Mediator.Abstractions/3.0.2": {
         "runtime": {
-          "lib/net10.0/Mediator.dll": {
-            "assemblyVersion": "3.1.0.0",
-            "fileVersion": "3.1.0.0"
+          "lib/net8.0/Mediator.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.2.22577"
           }
         }
       },
@@ -126,70 +124,27 @@
           }
         }
       },
-      "GoodHamburger.Application.Orders/1.0.0": {
-        "dependencies": {
-          "GoodHamburger.Application.Shared": "1.0.0",
-          "GoodHamburger.Domain.Orders": "1.0.0",
-          "GoodHamburger.Domain.Shared": "1.0.0"
-        },
-        "runtime": {
-          "GoodHamburger.Application.Orders.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "GoodHamburger.Application.Products/1.0.0": {
-        "dependencies": {
-          "GoodHamburger.Application.Shared": "1.0.0",
-          "GoodHamburger.Contracts": "1.0.0",
-          "GoodHamburger.Domain.Products": "1.0.0"
-        },
-        "runtime": {
-          "GoodHamburger.Application.Products.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "GoodHamburger.Application.Shared/1.0.0": {
+      "GoodHamburger.Application/1.0.0": {
         "dependencies": {
           "FluentValidation": "12.1.1",
           "FluentValidation.DependencyInjectionExtensions": "12.1.1",
-          "Mediator.Abstractions": "3.1.0-rc.1"
+          "GoodHamburger.Domain": "1.0.0",
+          "GoodHamburger.Domain.Shared": "1.0.0",
+          "Mediator.Abstractions": "3.0.2"
         },
         "runtime": {
-          "GoodHamburger.Application.Shared.dll": {
+          "GoodHamburger.Application.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
       },
-      "GoodHamburger.Contracts/1.0.0": {
-        "runtime": {
-          "GoodHamburger.Contracts.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "GoodHamburger.Domain.Orders/1.0.0": {
+      "GoodHamburger.Domain/1.0.0": {
         "dependencies": {
           "GoodHamburger.Domain.Shared": "1.0.0"
         },
         "runtime": {
-          "GoodHamburger.Domain.Orders.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "GoodHamburger.Domain.Products/1.0.0": {
-        "dependencies": {
-          "GoodHamburger.Domain.Shared": "1.0.0"
-        },
-        "runtime": {
-          "GoodHamburger.Domain.Products.dll": {
+          "GoodHamburger.Domain.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -205,49 +160,12 @@
       },
       "GoodHamburger.Infrastructure.PostgreSQL/1.0.0": {
         "dependencies": {
-          "GoodHamburger.Application.Products": "1.0.0",
-          "GoodHamburger.Domain.Orders": "1.0.0",
-          "GoodHamburger.Domain.Shared": "1.0.0",
+          "GoodHamburger.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "10.0.6",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.1"
         },
         "runtime": {
           "GoodHamburger.Infrastructure.PostgreSQL.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "GoodHamburger.Presentation.Orders/1.0.0": {
-        "dependencies": {
-          "GoodHamburger.Application.Orders": "1.0.0",
-          "GoodHamburger.Presentation.Shared": "1.0.0"
-        },
-        "runtime": {
-          "GoodHamburger.Presentation.Orders.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "GoodHamburger.Presentation.Products/1.0.0": {
-        "dependencies": {
-          "GoodHamburger.Application.Products": "1.0.0",
-          "GoodHamburger.Presentation.Shared": "1.0.0"
-        },
-        "runtime": {
-          "GoodHamburger.Presentation.Products.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "GoodHamburger.Presentation.Shared/1.0.0": {
-        "dependencies": {
-          "Mediator.Abstractions": "3.1.0-rc.1"
-        },
-        "runtime": {
-          "GoodHamburger.Presentation.Shared.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -275,12 +193,12 @@
       "path": "fluentvalidation.dependencyinjectionextensions/12.1.1",
       "hashPath": "fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512"
     },
-    "Mediator.Abstractions/3.1.0-rc.1": {
+    "Mediator.Abstractions/3.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-iIjr4GZ3HuRfUqwsCHKxXJxP5gVQ3g/xeExH3i73081gpBm/40yz3BoOyAVoLrqneh2TCftQhAzaaZwBukvJXQ==",
-      "path": "mediator.abstractions/3.1.0-rc.1",
-      "hashPath": "mediator.abstractions.3.1.0-rc.1.nupkg.sha512"
+      "sha512": "sha512-TytjnyN8gLObZBxkM7HHPFJF3LHtk6Y8mHW56ONuXRuVEK6Fmed3f0z79H9TpmoZQP2zQAIS4/0O9R2w0v02qw==",
+      "path": "mediator.abstractions/3.0.2",
+      "hashPath": "mediator.abstractions.3.0.2.nupkg.sha512"
     },
     "Microsoft.AspNetCore.OpenApi/10.0.5": {
       "type": "package",
@@ -338,32 +256,12 @@
       "path": "scalar.aspnetcore/2.14.1",
       "hashPath": "scalar.aspnetcore.2.14.1.nupkg.sha512"
     },
-    "GoodHamburger.Application.Orders/1.0.0": {
+    "GoodHamburger.Application/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "GoodHamburger.Application.Products/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "GoodHamburger.Application.Shared/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "GoodHamburger.Contracts/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "GoodHamburger.Domain.Orders/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "GoodHamburger.Domain.Products/1.0.0": {
+    "GoodHamburger.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -374,21 +272,6 @@
       "sha512": ""
     },
     "GoodHamburger.Infrastructure.PostgreSQL/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "GoodHamburger.Presentation.Orders/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "GoodHamburger.Presentation.Products/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "GoodHamburger.Presentation.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

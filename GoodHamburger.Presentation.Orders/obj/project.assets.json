@@ -2,35 +2,6 @@
   "version": 4,
   "targets": {
     "net10.0": {
-      "FluentValidation/12.1.1": {
-        "type": "package",
-        "compile": {
-          "lib/net8.0/FluentValidation.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/FluentValidation.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "FluentValidation.DependencyInjectionExtensions/12.1.1": {
-        "type": "package",
-        "dependencies": {
-          "FluentValidation": "12.1.1"
-        },
-        "compile": {
-          "lib/net8.0/FluentValidation.DependencyInjectionExtensions.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/FluentValidation.DependencyInjectionExtensions.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "Mediator.Abstractions/3.1.0-rc.1": {
         "type": "package",
         "compile": {
@@ -44,34 +15,18 @@
           }
         }
       },
-      "GoodHamburger.Application.Orders/1.0.0": {
+      "GoodHamburger.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
-          "GoodHamburger.Application.Shared": "1.0.0",
           "GoodHamburger.Domain.Orders": "1.0.0",
           "GoodHamburger.Domain.Shared": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/GoodHamburger.Application.Orders.dll": {}
+          "bin/placeholder/GoodHamburger.Application.dll": {}
         },
         "runtime": {
-          "bin/placeholder/GoodHamburger.Application.Orders.dll": {}
-        }
-      },
-      "GoodHamburger.Application.Shared/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v10.0",
-        "dependencies": {
-          "FluentValidation": "12.1.1",
-          "FluentValidation.DependencyInjectionExtensions": "12.1.1",
-          "Mediator.Abstractions": "3.1.0-rc.1"
-        },
-        "compile": {
-          "bin/placeholder/GoodHamburger.Application.Shared.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/GoodHamburger.Application.Shared.dll": {}
+          "bin/placeholder/GoodHamburger.Application.dll": {}
         }
       },
       "GoodHamburger.Domain.Orders/1.0.0": {
@@ -113,36 +68,6 @@
     }
   },
   "libraries": {
-    "FluentValidation/12.1.1": {
-      "sha512": "EPpkIe1yh1a0OXyC100oOA8WMbZvqUu5plwhvYcb7oSELfyUZzfxV48BLhvs3kKo4NwG7MGLNgy1RJiYtT8Dpw==",
-      "type": "package",
-      "path": "fluentvalidation/12.1.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "README.md",
-        "fluent-validation-icon.png",
-        "fluentvalidation.12.1.1.nupkg.sha512",
-        "fluentvalidation.nuspec",
-        "lib/net8.0/FluentValidation.dll",
-        "lib/net8.0/FluentValidation.xml"
-      ]
-    },
-    "FluentValidation.DependencyInjectionExtensions/12.1.1": {
-      "sha512": "D0VXh4dtjjX2aQizuaa0g6R8X3U1JaVqJPfGCvLwZX9t/O2h7tkpbitbadQMfwcgSPdDbI2vDxuwRMv/Uf9dHA==",
-      "type": "package",
-      "path": "fluentvalidation.dependencyinjectionextensions/12.1.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "README.md",
-        "fluent-validation-icon.png",
-        "fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
-        "fluentvalidation.dependencyinjectionextensions.nuspec",
-        "lib/net8.0/FluentValidation.DependencyInjectionExtensions.dll",
-        "lib/net8.0/FluentValidation.DependencyInjectionExtensions.xml"
-      ]
-    },
     "Mediator.Abstractions/3.1.0-rc.1": {
       "sha512": "iIjr4GZ3HuRfUqwsCHKxXJxP5gVQ3g/xeExH3i73081gpBm/40yz3BoOyAVoLrqneh2TCftQhAzaaZwBukvJXQ==",
       "type": "package",
@@ -164,15 +89,10 @@
         "mediator.abstractions.nuspec"
       ]
     },
-    "GoodHamburger.Application.Orders/1.0.0": {
+    "GoodHamburger.Application/1.0.0": {
       "type": "project",
-      "path": "../GoodHamburger.Application.Orders/GoodHamburger.Application.Orders.csproj",
-      "msbuildProject": "../GoodHamburger.Application.Orders/GoodHamburger.Application.Orders.csproj"
-    },
-    "GoodHamburger.Application.Shared/1.0.0": {
-      "type": "project",
-      "path": "../GoodHamburger.Application.Shared/GoodHamburger.Application.Shared.csproj",
-      "msbuildProject": "../GoodHamburger.Application.Shared/GoodHamburger.Application.Shared.csproj"
+      "path": "../GoodHamburger.Application.Orders/GoodHamburger.Application.csproj",
+      "msbuildProject": "../GoodHamburger.Application.Orders/GoodHamburger.Application.csproj"
     },
     "GoodHamburger.Domain.Orders/1.0.0": {
       "type": "project",
@@ -192,7 +112,7 @@
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "GoodHamburger.Application.Orders >= 1.0.0",
+      "GoodHamburger.Application >= 1.0.0",
       "GoodHamburger.Presentation.Shared >= 1.0.0"
     ]
   },
@@ -203,11 +123,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Orders\\GoodHamburger.Presentation.Orders.csproj",
+      "projectUniqueName": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Presentation.Orders\\GoodHamburger.Presentation.Orders.csproj",
       "projectName": "GoodHamburger.Presentation.Orders",
-      "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Orders\\GoodHamburger.Presentation.Orders.csproj",
+      "projectPath": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Presentation.Orders\\GoodHamburger.Presentation.Orders.csproj",
       "packagesPath": "C:\\Users\\Barba\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Orders\\obj\\",
+      "outputPath": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Presentation.Orders\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -229,11 +149,11 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Orders\\GoodHamburger.Application.Orders.csproj": {
-              "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Orders\\GoodHamburger.Application.Orders.csproj"
+            "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Application.Orders\\GoodHamburger.Application.csproj": {
+              "projectPath": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Application.Orders\\GoodHamburger.Application.csproj"
             },
-            "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Shared\\GoodHamburger.Presentation.Shared.csproj": {
-              "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Shared\\GoodHamburger.Presentation.Shared.csproj"
+            "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Presentation.Shared\\GoodHamburger.Presentation.Shared.csproj": {
+              "projectPath": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Presentation.Shared\\GoodHamburger.Presentation.Shared.csproj"
             }
           }
         }

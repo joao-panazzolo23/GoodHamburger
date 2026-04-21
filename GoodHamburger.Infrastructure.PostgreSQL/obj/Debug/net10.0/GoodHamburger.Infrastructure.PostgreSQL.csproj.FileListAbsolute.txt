@@ -46,3 +46,23 @@ C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburger.Infrastructure.Pos
 C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburger.Infrastructure.PostgreSQL\bin\Debug\net10.0\GoodHamburger.Application.Shared.pdb
 C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburger.Infrastructure.PostgreSQL\bin\Debug\net10.0\GoodHamburger.Contracts.pdb
 C:\Users\Barba\Desktop\Nova pasta\GoodHamburger\GoodHamburger.Infrastructure.PostgreSQL\bin\Debug\net10.0\GoodHamburger.Domain.Products.pdb
+C:\Users\Barba\source\repos\GoodHamburger\GoodHamburger.Infrastructure.PostgreSQL\bin\Debug\net10.0\GoodHamburger.Infrastructure.PostgreSQL.deps.json
+C:\Users\Barba\source\repos\GoodHamburger\GoodHamburger.Infrastructure.PostgreSQL\bin\Debug\net10.0\GoodHamburger.Infrastructure.PostgreSQL.runtimeconfig.json
+C:\Users\Barba\source\repos\GoodHamburger\GoodHamburger.Infrastructure.PostgreSQL\bin\Debug\net10.0\GoodHamburger.Infrastructure.PostgreSQL.dll
+C:\Users\Barba\source\repos\GoodHamburger\GoodHamburger.Infrastructure.PostgreSQL\bin\Debug\net10.0\GoodHamburger.Infrastructure.PostgreSQL.pdb
+C:\Users\Barba\source\repos\GoodHamburger\GoodHamburger.Infrastructure.PostgreSQL\bin\Debug\net10.0\GoodHamburger.Domain.dll
+C:\Users\Barba\source\repos\GoodHamburger\GoodHamburger.Infrastructure.PostgreSQL\bin\Debug\net10.0\GoodHamburger.Domain.Shared.dll
+C:\Users\Barba\source\repos\GoodHamburger\GoodHamburger.Infrastructure.PostgreSQL\bin\Debug\net10.0\GoodHamburger.Domain.pdb
+C:\Users\Barba\source\repos\GoodHamburger\GoodHamburger.Infrastructure.PostgreSQL\bin\Debug\net10.0\GoodHamburger.Domain.Shared.pdb
+C:\Users\Barba\source\repos\GoodHamburger\GoodHamburger.Infrastructure.PostgreSQL\obj\Debug\net10.0\GoodHamburger.Infrastructure.PostgreSQL.csproj.AssemblyReference.cache
+C:\Users\Barba\source\repos\GoodHamburger\GoodHamburger.Infrastructure.PostgreSQL\obj\Debug\net10.0\GoodHamburger.Infrastructure.PostgreSQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Barba\source\repos\GoodHamburger\GoodHamburger.Infrastructure.PostgreSQL\obj\Debug\net10.0\GoodHamburger.Infrastructure.PostgreSQL.AssemblyInfoInputs.cache
+C:\Users\Barba\source\repos\GoodHamburger\GoodHamburger.Infrastructure.PostgreSQL\obj\Debug\net10.0\GoodHamburger.Infrastructure.PostgreSQL.AssemblyInfo.cs
+C:\Users\Barba\source\repos\GoodHamburger\GoodHamburger.Infrastructure.PostgreSQL\obj\Debug\net10.0\GoodHamburger.Infrastructure.PostgreSQL.csproj.CoreCompileInputs.cache
+C:\Users\Barba\source\repos\GoodHamburger\GoodHamburger.Infrastructure.PostgreSQL\obj\Debug\net10.0\GoodHamburger.Infrastructure.PostgreSQL.sourcelink.json
+C:\Users\Barba\source\repos\GoodHamburger\GoodHamburger.Infrastructure.PostgreSQL\obj\Debug\net10.0\GoodHamb.2903C2ED.Up2Date
+C:\Users\Barba\source\repos\GoodHamburger\GoodHamburger.Infrastructure.PostgreSQL\obj\Debug\net10.0\GoodHamburger.Infrastructure.PostgreSQL.dll
+C:\Users\Barba\source\repos\GoodHamburger\GoodHamburger.Infrastructure.PostgreSQL\obj\Debug\net10.0\refint\GoodHamburger.Infrastructure.PostgreSQL.dll
+C:\Users\Barba\source\repos\GoodHamburger\GoodHamburger.Infrastructure.PostgreSQL\obj\Debug\net10.0\GoodHamburger.Infrastructure.PostgreSQL.pdb
+C:\Users\Barba\source\repos\GoodHamburger\GoodHamburger.Infrastructure.PostgreSQL\obj\Debug\net10.0\GoodHamburger.Infrastructure.PostgreSQL.genruntimeconfig.cache
+C:\Users\Barba\source\repos\GoodHamburger\GoodHamburger.Infrastructure.PostgreSQL\obj\Debug\net10.0\ref\GoodHamburger.Infrastructure.PostgreSQL.dll

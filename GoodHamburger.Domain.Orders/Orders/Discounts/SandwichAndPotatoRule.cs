@@ -1,0 +1,18 @@
+﻿using GoodHamburger.Domain.Order.Orders.Discounts.Abstract;
+using GoodHamburger.Domain.Order.Orders.Entities;
+using GoodHamburger.Domain.Order.Products.Enums;
+
+namespace GoodHamburger.Domain.Order.Orders.Discounts;
+
+public class SandwichAndPotatoRule : IDiscountRule
+{
+    public decimal Percentage => 0.10m;
+
+    public bool IsApplicable(IReadOnlyList<OrderItem> items)
+        => items.Any(i => i.Category == ProductCategory.Sandwich)
+        && items.Any(i => i.Category == ProductCategory.FrenchFries);
+}
+
+
+
+

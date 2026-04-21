@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QI/Umr93T5A=",
+  "dgSpecHash": "af7LvHIhnQU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Shared\\GoodHamburger.Presentation.Shared.csproj",
+  "projectFilePath": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Presentation.Shared\\GoodHamburger.Presentation.Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Barba\\.nuget\\packages\\mediator.abstractions\\3.1.0-rc.1\\mediator.abstractions.3.1.0-rc.1.nupkg.sha512",
     "C:\\Users\\Barba\\.nuget\\packages\\mediator.sourcegenerator\\3.1.0-rc.1\\mediator.sourcegenerator.3.1.0-rc.1.nupkg.sha512",
@@ -42,9 +42,9 @@
       "code": "NU1903",
       "level": "Warning",
       "message": "O pacote 'Newtonsoft.Json' 9.0.1 tem uma alta vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-5crp-9r3c-p9vr",
-      "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Shared\\GoodHamburger.Presentation.Shared.csproj",
+      "projectPath": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Presentation.Shared\\GoodHamburger.Presentation.Shared.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Shared\\GoodHamburger.Presentation.Shared.csproj",
+      "filePath": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Presentation.Shared\\GoodHamburger.Presentation.Shared.csproj",
       "libraryId": "Newtonsoft.Json",
       "targetGraphs": [
         "net10.0"

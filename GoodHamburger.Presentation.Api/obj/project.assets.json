@@ -31,18 +31,21 @@
           }
         }
       },
-      "Mediator.Abstractions/3.1.0-rc.1": {
+      "Mediator.Abstractions/3.0.2": {
         "type": "package",
         "compile": {
-          "lib/net10.0/Mediator.dll": {
+          "lib/net8.0/Mediator.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net10.0/Mediator.dll": {
+          "lib/net8.0/Mediator.dll": {
             "related": ".xml"
           }
         }
+      },
+      "Mediator.SourceGenerator/3.0.2": {
+        "type": "package"
       },
       "Microsoft.AspNetCore.OpenApi/10.0.5": {
         "type": "package",
@@ -178,85 +181,34 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "GoodHamburger.Application.Orders/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v10.0",
-        "dependencies": {
-          "GoodHamburger.Application.Shared": "1.0.0",
-          "GoodHamburger.Domain.Orders": "1.0.0",
-          "GoodHamburger.Domain.Shared": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/GoodHamburger.Application.Orders.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/GoodHamburger.Application.Orders.dll": {}
-        }
-      },
-      "GoodHamburger.Application.Products/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v10.0",
-        "dependencies": {
-          "GoodHamburger.Application.Shared": "1.0.0",
-          "GoodHamburger.Contracts": "1.0.0",
-          "GoodHamburger.Domain.Products": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/GoodHamburger.Application.Products.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/GoodHamburger.Application.Products.dll": {}
-        }
-      },
-      "GoodHamburger.Application.Shared/1.0.0": {
+      "GoodHamburger.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
           "FluentValidation": "12.1.1",
           "FluentValidation.DependencyInjectionExtensions": "12.1.1",
-          "Mediator.Abstractions": "3.1.0-rc.1"
+          "GoodHamburger.Domain": "1.0.0",
+          "GoodHamburger.Domain.Shared": "1.0.0",
+          "Mediator.Abstractions": "3.0.2"
         },
         "compile": {
-          "bin/placeholder/GoodHamburger.Application.Shared.dll": {}
+          "bin/placeholder/GoodHamburger.Application.dll": {}
         },
         "runtime": {
-          "bin/placeholder/GoodHamburger.Application.Shared.dll": {}
+          "bin/placeholder/GoodHamburger.Application.dll": {}
         }
       },
-      "GoodHamburger.Contracts/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v10.0",
-        "compile": {
-          "bin/placeholder/GoodHamburger.Contracts.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/GoodHamburger.Contracts.dll": {}
-        }
-      },
-      "GoodHamburger.Domain.Orders/1.0.0": {
+      "GoodHamburger.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
           "GoodHamburger.Domain.Shared": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/GoodHamburger.Domain.Orders.dll": {}
+          "bin/placeholder/GoodHamburger.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/GoodHamburger.Domain.Orders.dll": {}
-        }
-      },
-      "GoodHamburger.Domain.Products/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v10.0",
-        "dependencies": {
-          "GoodHamburger.Domain.Shared": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/GoodHamburger.Domain.Products.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/GoodHamburger.Domain.Products.dll": {}
+          "bin/placeholder/GoodHamburger.Domain.dll": {}
         }
       },
       "GoodHamburger.Domain.Shared/1.0.0": {
@@ -273,9 +225,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
-          "GoodHamburger.Application.Products": "1.0.0",
-          "GoodHamburger.Domain.Orders": "1.0.0",
-          "GoodHamburger.Domain.Shared": "1.0.0",
+          "GoodHamburger.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "10.0.6",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.1"
         },
@@ -284,50 +234,6 @@
         },
         "runtime": {
           "bin/placeholder/GoodHamburger.Infrastructure.PostgreSQL.dll": {}
-        }
-      },
-      "GoodHamburger.Presentation.Orders/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v10.0",
-        "dependencies": {
-          "GoodHamburger.Application.Orders": "1.0.0",
-          "GoodHamburger.Presentation.Shared": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/GoodHamburger.Presentation.Orders.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/GoodHamburger.Presentation.Orders.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
-      },
-      "GoodHamburger.Presentation.Products/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v10.0",
-        "dependencies": {
-          "GoodHamburger.Application.Products": "1.0.0",
-          "GoodHamburger.Presentation.Shared": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/GoodHamburger.Presentation.Products.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/GoodHamburger.Presentation.Products.dll": {}
-        }
-      },
-      "GoodHamburger.Presentation.Shared/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v10.0",
-        "dependencies": {
-          "Mediator.Abstractions": "3.1.0-rc.1"
-        },
-        "compile": {
-          "bin/placeholder/GoodHamburger.Presentation.Shared.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/GoodHamburger.Presentation.Shared.dll": {}
         }
       }
     }
@@ -363,25 +269,37 @@
         "lib/net8.0/FluentValidation.DependencyInjectionExtensions.xml"
       ]
     },
-    "Mediator.Abstractions/3.1.0-rc.1": {
-      "sha512": "iIjr4GZ3HuRfUqwsCHKxXJxP5gVQ3g/xeExH3i73081gpBm/40yz3BoOyAVoLrqneh2TCftQhAzaaZwBukvJXQ==",
+    "Mediator.Abstractions/3.0.2": {
+      "sha512": "TytjnyN8gLObZBxkM7HHPFJF3LHtk6Y8mHW56ONuXRuVEK6Fmed3f0z79H9TpmoZQP2zQAIS4/0O9R2w0v02qw==",
       "type": "package",
-      "path": "mediator.abstractions/3.1.0-rc.1",
+      "path": "mediator.abstractions/3.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
         "README.md",
-        "lib/net10.0/Mediator.dll",
-        "lib/net10.0/Mediator.xml",
         "lib/net8.0/Mediator.dll",
         "lib/net8.0/Mediator.xml",
-        "lib/net9.0/Mediator.dll",
-        "lib/net9.0/Mediator.xml",
         "lib/netstandard2.0/Mediator.dll",
         "lib/netstandard2.0/Mediator.xml",
-        "mediator.abstractions.3.1.0-rc.1.nupkg.sha512",
+        "mediator.abstractions.3.0.2.nupkg.sha512",
         "mediator.abstractions.nuspec"
+      ]
+    },
+    "Mediator.SourceGenerator/3.0.2": {
+      "sha512": "yGQzb8Or3nGsQJnVUQIQHr/04LeThd3qMZV0gvgMtXdgH35Rw2xJ2XyQ87v6HhNYOUZ2iirRjUWceebyNKMF7Q==",
+      "type": "package",
+      "path": "mediator.sourcegenerator/3.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "analyzers/dotnet/cs/Mediator.SourceGenerator.dll",
+        "analyzers/dotnet/cs/System.Runtime.CompilerServices.Unsafe.dll",
+        "analyzers/dotnet/cs/System.Threading.Tasks.Extensions.dll",
+        "mediator.sourcegenerator.3.0.2.nupkg.sha512",
+        "mediator.sourcegenerator.nuspec"
       ]
     },
     "Microsoft.AspNetCore.OpenApi/10.0.5": {
@@ -533,35 +451,15 @@
         "scalar.aspnetcore.nuspec"
       ]
     },
-    "GoodHamburger.Application.Orders/1.0.0": {
+    "GoodHamburger.Application/1.0.0": {
       "type": "project",
-      "path": "../GoodHamburger.Application.Orders/GoodHamburger.Application.Orders.csproj",
-      "msbuildProject": "../GoodHamburger.Application.Orders/GoodHamburger.Application.Orders.csproj"
+      "path": "../GoodHamburger.Application.Orders/GoodHamburger.Application.csproj",
+      "msbuildProject": "../GoodHamburger.Application.Orders/GoodHamburger.Application.csproj"
     },
-    "GoodHamburger.Application.Products/1.0.0": {
+    "GoodHamburger.Domain/1.0.0": {
       "type": "project",
-      "path": "../GoodHamburger.Application.Products/GoodHamburger.Application.Products.csproj",
-      "msbuildProject": "../GoodHamburger.Application.Products/GoodHamburger.Application.Products.csproj"
-    },
-    "GoodHamburger.Application.Shared/1.0.0": {
-      "type": "project",
-      "path": "../GoodHamburger.Application.Shared/GoodHamburger.Application.Shared.csproj",
-      "msbuildProject": "../GoodHamburger.Application.Shared/GoodHamburger.Application.Shared.csproj"
-    },
-    "GoodHamburger.Contracts/1.0.0": {
-      "type": "project",
-      "path": "../GoodHamburger.Contracts/GoodHamburger.Contracts.csproj",
-      "msbuildProject": "../GoodHamburger.Contracts/GoodHamburger.Contracts.csproj"
-    },
-    "GoodHamburger.Domain.Orders/1.0.0": {
-      "type": "project",
-      "path": "../GoodHamburger.Domain.Orders/GoodHamburger.Domain.Orders.csproj",
-      "msbuildProject": "../GoodHamburger.Domain.Orders/GoodHamburger.Domain.Orders.csproj"
-    },
-    "GoodHamburger.Domain.Products/1.0.0": {
-      "type": "project",
-      "path": "../GoodHamburger.Domain.Products/GoodHamburger.Domain.Products.csproj",
-      "msbuildProject": "../GoodHamburger.Domain.Products/GoodHamburger.Domain.Products.csproj"
+      "path": "../GoodHamburger.Domain.Orders/GoodHamburger.Domain.csproj",
+      "msbuildProject": "../GoodHamburger.Domain.Orders/GoodHamburger.Domain.csproj"
     },
     "GoodHamburger.Domain.Shared/1.0.0": {
       "type": "project",
@@ -572,30 +470,14 @@
       "type": "project",
       "path": "../GoodHamburger.Infrastructure.PostgreSQL/GoodHamburger.Infrastructure.PostgreSQL.csproj",
       "msbuildProject": "../GoodHamburger.Infrastructure.PostgreSQL/GoodHamburger.Infrastructure.PostgreSQL.csproj"
-    },
-    "GoodHamburger.Presentation.Orders/1.0.0": {
-      "type": "project",
-      "path": "../GoodHamburger.Presentation.Orders/GoodHamburger.Presentation.Orders.csproj",
-      "msbuildProject": "../GoodHamburger.Presentation.Orders/GoodHamburger.Presentation.Orders.csproj"
-    },
-    "GoodHamburger.Presentation.Products/1.0.0": {
-      "type": "project",
-      "path": "../GoodHamburger.Presentation.Products/GoodHamburger.Presentation.Products.csproj",
-      "msbuildProject": "../GoodHamburger.Presentation.Products/GoodHamburger.Presentation.Products.csproj"
-    },
-    "GoodHamburger.Presentation.Shared/1.0.0": {
-      "type": "project",
-      "path": "../GoodHamburger.Presentation.Shared/GoodHamburger.Presentation.Shared.csproj",
-      "msbuildProject": "../GoodHamburger.Presentation.Shared/GoodHamburger.Presentation.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "GoodHamburger.Application.Orders >= 1.0.0",
+      "GoodHamburger.Application >= 1.0.0",
       "GoodHamburger.Infrastructure.PostgreSQL >= 1.0.0",
-      "GoodHamburger.Presentation.Orders >= 1.0.0",
-      "GoodHamburger.Presentation.Products >= 1.0.0",
-      "GoodHamburger.Presentation.Shared >= 1.0.0",
+      "Mediator.Abstractions >= 3.0.2",
+      "Mediator.SourceGenerator >= 3.0.2",
       "Microsoft.AspNetCore.OpenApi >= 10.0.5",
       "Microsoft.EntityFrameworkCore.Relational >= 10.0.6",
       "Scalar.AspNetCore >= 2.14.1"
@@ -608,11 +490,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Api\\GoodHamburger.Presentation.Api.csproj",
+      "projectUniqueName": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Presentation.Api\\GoodHamburger.Presentation.Api.csproj",
       "projectName": "GoodHamburger.Presentation.Api",
-      "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Api\\GoodHamburger.Presentation.Api.csproj",
+      "projectPath": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Presentation.Api\\GoodHamburger.Presentation.Api.csproj",
       "packagesPath": "C:\\Users\\Barba\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Api\\obj\\",
+      "outputPath": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Presentation.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -634,20 +516,11 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Orders\\GoodHamburger.Application.Orders.csproj": {
-              "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Application.Orders\\GoodHamburger.Application.Orders.csproj"
+            "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Application.Orders\\GoodHamburger.Application.csproj": {
+              "projectPath": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Application.Orders\\GoodHamburger.Application.csproj"
             },
-            "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Infrastructure.PostgreSQL\\GoodHamburger.Infrastructure.PostgreSQL.csproj": {
-              "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Infrastructure.PostgreSQL\\GoodHamburger.Infrastructure.PostgreSQL.csproj"
-            },
-            "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Orders\\GoodHamburger.Presentation.Orders.csproj": {
-              "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Orders\\GoodHamburger.Presentation.Orders.csproj"
-            },
-            "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Products\\GoodHamburger.Presentation.Products.csproj": {
-              "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Products\\GoodHamburger.Presentation.Products.csproj"
-            },
-            "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Shared\\GoodHamburger.Presentation.Shared.csproj": {
-              "projectPath": "C:\\Users\\Barba\\Desktop\\Nova pasta\\GoodHamburger\\GoodHamburger.Presentation.Shared\\GoodHamburger.Presentation.Shared.csproj"
+            "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Infrastructure.PostgreSQL\\GoodHamburger.Infrastructure.PostgreSQL.csproj": {
+              "projectPath": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\GoodHamburger.Infrastructure.PostgreSQL\\GoodHamburger.Infrastructure.PostgreSQL.csproj"
             }
           }
         }
@@ -669,6 +542,16 @@
         "framework": "net10.0",
         "targetAlias": "net10.0",
         "dependencies": {
+          "Mediator.Abstractions": {
+            "target": "Package",
+            "version": "[3.0.2, )"
+          },
+          "Mediator.SourceGenerator": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[3.0.2, )"
+          },
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[10.0.5, )"
