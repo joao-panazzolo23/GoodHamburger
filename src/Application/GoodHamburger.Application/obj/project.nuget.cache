@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "D0fxCSTAeCY=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\src\\Application\\GoodHamburger.Application\\GoodHamburger.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Barba\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
+    "C:\\Users\\Barba\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.1.1\\fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
+    "C:\\Users\\Barba\\.nuget\\packages\\mediator.abstractions\\3.0.2\\mediator.abstractions.3.0.2.nupkg.sha512",
+    "C:\\Users\\Barba\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
