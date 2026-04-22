@@ -1,5 +1,6 @@
 using GoodHamburger.Application.Orders.Commands;
 using GoodHamburger.Application.Result;
+using GoodHamburger.Domain.Order.Orders.Discounts.Abstract;
 using GoodHamburger.Domain.Order.Orders.Entities;
 using GoodHamburger.Domain.Order.Orders.Repositories;
 using GoodHamburger.Domain.Order.Products.Repositories;
@@ -12,7 +13,8 @@ namespace GoodHamburger.Application.Orders.Handlers;
 public sealed class CreateOrderHandler(
     IOrderRepository repository,
     IUnityOfWork unitOfWork,
-    IProductRepository productRepository
+    IProductRepository productRepository, 
+    IDiscountCalculator calculator
 ) : ICommandHandler<CreateOrderCommand, Result<Unit>>
 {
     public async ValueTask<Result<Unit>> Handle(
@@ -22,7 +24,7 @@ public sealed class CreateOrderHandler(
     {
         var result = new DomainResult();
 
-        var order = Order.Create();
+        var order = new Order(command.Name, command.PhoneNumber);
 
         foreach (var item in command.Items)
         {
@@ -43,6 +45,8 @@ public sealed class CreateOrderHandler(
 
         if (result.HasError)
             return ResultFactory<Unit>.BadRequest(message: "Unable to create an Order", errors: result.Errors);
+
+        order.ApplyDiscount(calculator);
 
         await repository.Create(order);
         await unitOfWork.Commit(cancellationToken);

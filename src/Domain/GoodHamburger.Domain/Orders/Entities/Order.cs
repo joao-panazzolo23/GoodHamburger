@@ -7,18 +7,17 @@ namespace GoodHamburger.Domain.Order.Orders.Entities;
 public class Order : Entity
 {
     public string Name { get; private set; }
-    public decimal Value { get; private set; }
-    public Guid CustomerId { get; private set; }
+    public string PhoneNumber { get; private set; }
     private List<OrderItem> _items { get; set; } = new();
     public IReadOnlyCollection<OrderItem>? Items { get; private set; }
     public decimal Total { get; private set; }
 
 
-    public DomainResult ApplyDiscount(IDiscountCalculator calculator)
+    public DomainError ApplyDiscount(IDiscountCalculator calculator)
     {
         this.Total = calculator.Calculate(this._items);
 
-        return new DomainResult(CausesError.None);
+        return CausesError.None;
     }
 
     public DomainError AddItem(OrderItem item)
@@ -26,19 +25,16 @@ public class Order : Entity
         if (_items.Any(i => i.Category == item.Category))
             return CausesError.DuplicateItem;
 
-            _items.Add(item);
+        _items.Add(item);
         return CausesError.None;
     }
 
-    private Order()
+    //ef
+    private Order() { }
+    public Order(string name, string phone)
     {
-
-    }
-
-
-    public static Order Create()
-    {
-        return new Order();
+        this.Name = name;
+        this.PhoneNumber = phone;
     }
 }
 

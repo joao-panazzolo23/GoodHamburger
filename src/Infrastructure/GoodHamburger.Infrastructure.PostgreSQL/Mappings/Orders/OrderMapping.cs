@@ -1,12 +1,21 @@
-using GoodHamburger.Domain.Shared.Entities;
+using GoodHamburger.Domain.Order.Orders.Entities;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace GoodHamburger.Infrastructure.PostgreSQL.Mappings.Orders;
 
-public class OrderMapping : AbstractMapper<Entity>
+public class OrderMapping : AbstractMapper<Order>
 {
-    protected override void ConfigureMap(EntityTypeBuilder<Entity> builder)
+    protected override void ConfigureMap(EntityTypeBuilder<Order> builder)
     {
-        throw new NotImplementedException();
+        builder.Property(x => x.Name);
+        builder.Property(x => x.Total);
+        builder.Property(x => x.Name);
+        builder.Property(x => x.PhoneNumber);
+
+        builder.HasMany(x => x.Items)
+            .WithOne()
+            .HasForeignKey(x=>x.OrderId)
+            .OnDelete(Microsoft.EntityFrameworkCore.DeleteBehavior.Cascade);
+
     }
 }

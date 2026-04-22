@@ -2,6 +2,7 @@ using GoodHamburger.Domain.Order.Orders.Entities;
 using GoodHamburger.Domain.Order.Products.Entities;
 using GoodHamburger.Domain.Shared.Entities;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Diagnostics;
 
 namespace GoodHamburger.Infrastructure.PostgreSQL.DbContext;
 
@@ -12,10 +13,15 @@ public class AppDbContext(
     public DbSet<Order> Orders { get; set; }
     public DbSet<Product> Products { get; set; }
 
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    {
+        optionsBuilder.ConfigureWarnings(w =>
+            w.Ignore(RelationalEventId.PendingModelChangesWarning));
+    }
+
     protected override void OnModelCreating(ModelBuilder builder)
     {
-        //todo: uncomment later to register mappings & run migrations 
-        //builder.ApplyConfigurationsFromAssembly(typeof(AppDbContext).Assembly);
+        builder.ApplyConfigurationsFromAssembly(typeof(AppDbContext).Assembly);
     }
 
     public override Task<int> SaveChangesAsync(CancellationToken ct = default)
