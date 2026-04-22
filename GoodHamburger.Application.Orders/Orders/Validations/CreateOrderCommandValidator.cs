@@ -7,8 +7,12 @@ internal sealed class CreateOrderCommandValidator : AbstractValidator<CreateOrde
 {
     public CreateOrderCommandValidator()
     {
-        RuleFor(x => x.CustomerId)
+        RuleFor(x => x.Name)
             .NotEmpty();
+
+        RuleFor(x => x.PhoneNumber)
+            .NotEmpty();
+
         RuleFor(x => x.Items)
             .NotEmpty()
             .ForEach(x => x.SetValidator(new CreateOrderItemCommandValidator()));

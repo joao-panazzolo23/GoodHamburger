@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GoodHamburger.Infrastructure.PostgreSQL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b846cb3fd66e680b7a1c2751c850486d930c33c5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d33a3a380401c9ec11d354d6bcda988b584eeff6")]
 [assembly: System.Reflection.AssemblyProductAttribute("GoodHamburger.Infrastructure.PostgreSQL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GoodHamburger.Infrastructure.PostgreSQL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

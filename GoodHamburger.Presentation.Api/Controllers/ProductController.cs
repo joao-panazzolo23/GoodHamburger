@@ -1,5 +1,5 @@
 using GoodHamburger.Application.Products.Commands;
-using GoodHamburger.Application.Shared.Result;
+using GoodHamburger.Application.Result;
 using Mediator;
 using Microsoft.AspNetCore.Mvc;
 

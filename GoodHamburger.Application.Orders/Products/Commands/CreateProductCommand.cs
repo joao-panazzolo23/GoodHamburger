@@ -1,4 +1,4 @@
-using GoodHamburger.Application.Shared.Result;
+using GoodHamburger.Application.Result;
 using Mediator;
 
 namespace GoodHamburger.Application.Products.Commands;

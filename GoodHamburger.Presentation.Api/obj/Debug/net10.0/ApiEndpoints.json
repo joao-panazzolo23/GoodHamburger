@@ -1,5 +1,31 @@
 [
   {
+    "ContainingType": "GoodHamburger.Presentation.Api.Controllers.OrderController",
+    "Method": "Create",
+    "RelativePath": "Order",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "GoodHamburger.Application.Orders.Commands.CreateOrderCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GoodHamburger.Application.Result.Result\u00601[[Mediator.Unit, Mediator, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "GoodHamburger.Presentation.Api.Controllers.ProductController",
     "Method": "Create",
     "RelativePath": "Product",
@@ -15,7 +41,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "GoodHamburger.Application.Shared.Result.Result\u00601[[Mediator.Unit, Mediator, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "GoodHamburger.Application.Result.Result\u00601[[Mediator.Unit, Mediator, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
