@@ -30,6 +30,4 @@ public class OrderItem : Entity
     public ProductCategory Category { get; private set; }
     public decimal Price { get; private set; }
     public Product Product { get; private set; }
-
-
 }

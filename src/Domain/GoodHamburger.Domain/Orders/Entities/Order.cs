@@ -16,6 +16,9 @@ public class Order : Entity
 
     public DomainError ApplyDiscount(IDiscountCalculator calculator)
     {
+        if (_items.Count == 0)
+            return CausesError.MissingItems;
+
         var discountPercentage = calculator.Calculate(this._items);
 
         this.Total = this._items.Sum(i => i.Price) * (1 - discountPercentage);

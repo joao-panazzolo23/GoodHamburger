@@ -22,6 +22,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\..\Application\GoodHamburger.Application\GoodHamburger.Application.csproj" />
+      <ProjectReference Include="..\..\GoodHamburger.Infrastructure.PostgreSqlDapper\GoodHamburger.Infrastructure.PostgreSqlDapper.csproj" />
       <ProjectReference Include="..\..\Infrastructure\GoodHamburger.Infrastructure.PostgreSQL\GoodHamburger.Infrastructure.PostgreSQL.csproj" />
     </ItemGroup>
 

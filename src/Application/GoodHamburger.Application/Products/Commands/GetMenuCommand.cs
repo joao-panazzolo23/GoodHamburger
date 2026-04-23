@@ -1,4 +1,5 @@
 using GoodHamburger.Application.Result;
+using GoodHamburger.Domain.Products.Dtos;
 using GoodHamburger.Domain.Products.Entities;
 using Mediator;
 
@@ -8,4 +9,4 @@ public record GetMenuCommand(
     string? SearchTerm,
     int Page,
     int PageSize
-    ) : IQuery<Result<IEnumerable<Product>>>;
+    ) : IQuery<Result<IEnumerable<ProductDto>>>;

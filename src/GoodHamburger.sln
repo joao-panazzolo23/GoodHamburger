@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodHamburger.Presentation.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodHamburger.Domain.UnitTests", "GoodHamburger.Domain.UnitTests\GoodHamburger.Domain.UnitTests.csproj", "{2BCA4677-34BA-47FD-A717-0A07E267CDEE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodHamburger.Infrastructure.PostgreSqlDapper", "GoodHamburger.Infrastructure.PostgreSqlDapper\GoodHamburger.Infrastructure.PostgreSqlDapper.csproj", "{CE196C0A-D01A-439C-8C16-A7DA98EEAFA8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{2BCA4677-34BA-47FD-A717-0A07E267CDEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BCA4677-34BA-47FD-A717-0A07E267CDEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BCA4677-34BA-47FD-A717-0A07E267CDEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE196C0A-D01A-439C-8C16-A7DA98EEAFA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE196C0A-D01A-439C-8C16-A7DA98EEAFA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE196C0A-D01A-439C-8C16-A7DA98EEAFA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE196C0A-D01A-439C-8C16-A7DA98EEAFA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -72,6 +78,7 @@ Global
 		{E6E8D314-3785-B611-B01B-271022B92810} = {16F34874-1A4A-443D-A2E2-AAB57481B241}
 		{1003F2DA-0276-9C5E-313D-3D87B707E3CB} = {36BC5C4C-0194-4866-B066-DC11241A54B1}
 		{2BCA4677-34BA-47FD-A717-0A07E267CDEE} = {F7AF2114-D660-4F2F-BDB5-33EC57310D84}
+		{CE196C0A-D01A-439C-8C16-A7DA98EEAFA8} = {16F34874-1A4A-443D-A2E2-AAB57481B241}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {07156174-81E7-400F-93AD-83F8A059BB4F}

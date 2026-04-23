@@ -9,5 +9,4 @@ public interface IProductRepository
     //public Task Update(Product product);
     //public Task Delete(Product product);
     public Task<Product?> GetById(Guid id);
-    public Task<IEnumerable<Product>> List(string? search, int page, int pageSize);
 }

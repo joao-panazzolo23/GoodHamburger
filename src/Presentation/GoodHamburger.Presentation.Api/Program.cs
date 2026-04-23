@@ -1,4 +1,5 @@
 using GoodHamburger.Application.Extensions;
+using GoodHamburger.Infrastructure.PostgreSqlDapper;
 using GoodHamburger.Presentation.Api.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,6 +12,7 @@ builder.Services
     .AddMediatorService()
     .AddControllerWithOptions()
     .AddApplicationServices()
+    .AddQueryRepositories()
     ;
 
 var app = builder.Build();

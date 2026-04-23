@@ -4,7 +4,4 @@ using Mediator;
 
 namespace GoodHamburger.Application.Orders.Commands;
 
-public class GetOrderByIdQuery : IQuery<Result<OrderDto?>>
-{
-    public Guid Id { get; set; }
-}
+public record ListOrdersQuery() : IQuery<Result<IEnumerable<OrderDto>>>;

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Pa1GFB7rQ0Y=",
+  "dgSpecHash": "HYH2GvLBu5g=",
   "success": true,
   "projectFilePath": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\src\\Presentation\\GoodHamburger.Presentation.Api\\GoodHamburger.Presentation.Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Barba\\.nuget\\packages\\dapper\\2.1.72\\dapper.2.1.72.nupkg.sha512",
     "C:\\Users\\Barba\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
     "C:\\Users\\Barba\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.1.1\\fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
     "C:\\Users\\Barba\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

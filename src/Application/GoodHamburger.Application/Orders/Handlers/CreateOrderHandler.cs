@@ -35,7 +35,7 @@ public sealed class CreateOrderHandler(
             var orderItem = new OrderItem(
                 order.Id,
                 product.Id,
-                product.Category,
+                product.Category, 
                 product.Price
             );
 

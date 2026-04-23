@@ -1,6 +1,7 @@
 ﻿using GoodHamburger.Application.Orders.Commands;
-using GoodHamburger.Application.Orders.Dtos;
 using GoodHamburger.Application.Result;
+using GoodHamburger.Domain.Orders.Dtos;
+using GoodHamburger.Domain.Orders.Entities;
 using Mediator;
 using Microsoft.AspNetCore.Mvc;
 
@@ -32,16 +33,16 @@ public class OrderController(IMediator mediator) : ControllerBase
     }
 
     [HttpGet]
-    public async Task<ActionResult<Result<IEnumerable<OrderDto>>>> Get([FromQuery] GetOrdersByEmailQuery command, CancellationToken ct)
+    public async Task<ActionResult<Result<IEnumerable<Order>>>> Get([FromQuery] ListOrdersQuery command, CancellationToken ct)
     {
         var result = await mediator.Send(command, ct);
         return StatusCode(result.StatusCode, result);
     }
 
-    [HttpGet]
-    public async Task<ActionResult<Result<OrderDto>>> GetById([FromQuery] GetOrderByIdQuery command, CancellationToken ct)
+    [HttpGet("{id:guid}")]
+    public async Task<ActionResult<Result<OrderDto>>> GetById([FromRoute] Guid id, CancellationToken ct)
     {
-        var result = await mediator.Send(command, ct);
+        var result = await mediator.Send(new GetOrderByIdQuery { Id = id }, ct);
         return StatusCode(result.StatusCode, result);
     }
 

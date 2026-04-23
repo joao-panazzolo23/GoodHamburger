@@ -2,6 +2,19 @@
   "version": 4,
   "targets": {
     "net10.0": {
+      "Dapper/2.1.72": {
+        "type": "package",
+        "compile": {
+          "lib/net10.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "FluentValidation/12.1.1": {
         "type": "package",
         "compile": {
@@ -773,6 +786,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
+          "GoodHamburger.Application": "1.0.0",
           "GoodHamburger.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "10.0.6",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.1"
@@ -783,10 +797,46 @@
         "runtime": {
           "bin/placeholder/GoodHamburger.Infrastructure.PostgreSQL.dll": {}
         }
+      },
+      "GoodHamburger.Infrastructure.PostgreSqlDapper/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Dapper": "2.1.72",
+          "GoodHamburger.Domain": "1.0.0",
+          "Npgsql": "10.0.2"
+        },
+        "compile": {
+          "bin/placeholder/GoodHamburger.Infrastructure.PostgreSqlDapper.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GoodHamburger.Infrastructure.PostgreSqlDapper.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "Dapper/2.1.72": {
+      "sha512": "ns4mGqQd9a/MhP8m6w556vVlZIa0/MfUu03zrxjZC/jlr1uVCsUac8bkdB+Fs98Llbd56rRSo1eZH5VVmeGZyw==",
+      "type": "package",
+      "path": "dapper/2.1.72",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Dapper.png",
+        "dapper.2.1.72.nupkg.sha512",
+        "dapper.nuspec",
+        "lib/net10.0/Dapper.dll",
+        "lib/net10.0/Dapper.xml",
+        "lib/net461/Dapper.dll",
+        "lib/net461/Dapper.xml",
+        "lib/net8.0/Dapper.dll",
+        "lib/net8.0/Dapper.xml",
+        "lib/netstandard2.0/Dapper.dll",
+        "lib/netstandard2.0/Dapper.xml",
+        "readme.md"
+      ]
+    },
     "FluentValidation/12.1.1": {
       "sha512": "EPpkIe1yh1a0OXyC100oOA8WMbZvqUu5plwhvYcb7oSELfyUZzfxV48BLhvs3kKo4NwG7MGLNgy1RJiYtT8Dpw==",
       "type": "package",
@@ -2413,12 +2463,18 @@
       "type": "project",
       "path": "../../Infrastructure/GoodHamburger.Infrastructure.PostgreSQL/GoodHamburger.Infrastructure.PostgreSQL.csproj",
       "msbuildProject": "../../Infrastructure/GoodHamburger.Infrastructure.PostgreSQL/GoodHamburger.Infrastructure.PostgreSQL.csproj"
+    },
+    "GoodHamburger.Infrastructure.PostgreSqlDapper/1.0.0": {
+      "type": "project",
+      "path": "../../GoodHamburger.Infrastructure.PostgreSqlDapper/GoodHamburger.Infrastructure.PostgreSqlDapper.csproj",
+      "msbuildProject": "../../GoodHamburger.Infrastructure.PostgreSqlDapper/GoodHamburger.Infrastructure.PostgreSqlDapper.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
       "GoodHamburger.Application >= 1.0.0",
       "GoodHamburger.Infrastructure.PostgreSQL >= 1.0.0",
+      "GoodHamburger.Infrastructure.PostgreSqlDapper >= 1.0.0",
       "Mediator.Abstractions >= 3.0.2",
       "Mediator.SourceGenerator >= 3.0.2",
       "Microsoft.AspNetCore.OpenApi >= 10.0.5",
@@ -2461,6 +2517,9 @@
           "projectReferences": {
             "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\src\\Application\\GoodHamburger.Application\\GoodHamburger.Application.csproj": {
               "projectPath": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\src\\Application\\GoodHamburger.Application\\GoodHamburger.Application.csproj"
+            },
+            "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\src\\GoodHamburger.Infrastructure.PostgreSqlDapper\\GoodHamburger.Infrastructure.PostgreSqlDapper.csproj": {
+              "projectPath": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\src\\GoodHamburger.Infrastructure.PostgreSqlDapper\\GoodHamburger.Infrastructure.PostgreSqlDapper.csproj"
             },
             "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\src\\Infrastructure\\GoodHamburger.Infrastructure.PostgreSQL\\GoodHamburger.Infrastructure.PostgreSQL.csproj": {
               "projectPath": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\src\\Infrastructure\\GoodHamburger.Infrastructure.PostgreSQL\\GoodHamburger.Infrastructure.PostgreSQL.csproj"

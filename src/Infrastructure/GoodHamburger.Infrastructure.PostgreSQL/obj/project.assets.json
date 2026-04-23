@@ -2,6 +2,36 @@
   "version": 4,
   "targets": {
     "net10.0": {
+      "FluentValidation/12.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "FluentValidation.DependencyInjectionExtensions/12.1.1": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "12.1.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.0"
+        },
+        "compile": {
+          "lib/net8.0/FluentValidation.DependencyInjectionExtensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/FluentValidation.DependencyInjectionExtensions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -11,6 +41,22 @@
         },
         "runtime": {
           "lib/net6.0/Humanizer.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Mediator.Abstractions/3.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Mediator.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Mediator.dll": {
             "related": ".xml"
           }
         }
@@ -1026,6 +1072,22 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
+      "GoodHamburger.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "FluentValidation": "12.1.1",
+          "FluentValidation.DependencyInjectionExtensions": "12.1.1",
+          "GoodHamburger.Domain": "1.0.0",
+          "Mediator.Abstractions": "3.0.2"
+        },
+        "compile": {
+          "bin/placeholder/GoodHamburger.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GoodHamburger.Application.dll": {}
+        }
+      },
       "GoodHamburger.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
@@ -1052,6 +1114,36 @@
     }
   },
   "libraries": {
+    "FluentValidation/12.1.1": {
+      "sha512": "EPpkIe1yh1a0OXyC100oOA8WMbZvqUu5plwhvYcb7oSELfyUZzfxV48BLhvs3kKo4NwG7MGLNgy1RJiYtT8Dpw==",
+      "type": "package",
+      "path": "fluentvalidation/12.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.12.1.1.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net8.0/FluentValidation.dll",
+        "lib/net8.0/FluentValidation.xml"
+      ]
+    },
+    "FluentValidation.DependencyInjectionExtensions/12.1.1": {
+      "sha512": "D0VXh4dtjjX2aQizuaa0g6R8X3U1JaVqJPfGCvLwZX9t/O2h7tkpbitbadQMfwcgSPdDbI2vDxuwRMv/Uf9dHA==",
+      "type": "package",
+      "path": "fluentvalidation.dependencyinjectionextensions/12.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
+        "fluentvalidation.dependencyinjectionextensions.nuspec",
+        "lib/net8.0/FluentValidation.DependencyInjectionExtensions.dll",
+        "lib/net8.0/FluentValidation.DependencyInjectionExtensions.xml"
+      ]
+    },
     "Humanizer.Core/2.14.1": {
       "sha512": "lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "type": "package",
@@ -1068,6 +1160,23 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "Mediator.Abstractions/3.0.2": {
+      "sha512": "TytjnyN8gLObZBxkM7HHPFJF3LHtk6Y8mHW56ONuXRuVEK6Fmed3f0z79H9TpmoZQP2zQAIS4/0O9R2w0v02qw==",
+      "type": "package",
+      "path": "mediator.abstractions/3.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "lib/net8.0/Mediator.dll",
+        "lib/net8.0/Mediator.xml",
+        "lib/netstandard2.0/Mediator.dll",
+        "lib/netstandard2.0/Mediator.xml",
+        "mediator.abstractions.3.0.2.nupkg.sha512",
+        "mediator.abstractions.nuspec"
       ]
     },
     "Microsoft.Build.Framework/18.0.2": {
@@ -3173,6 +3282,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "GoodHamburger.Application/1.0.0": {
+      "type": "project",
+      "path": "../../Application/GoodHamburger.Application/GoodHamburger.Application.csproj",
+      "msbuildProject": "../../Application/GoodHamburger.Application/GoodHamburger.Application.csproj"
+    },
     "GoodHamburger.Domain/1.0.0": {
       "type": "project",
       "path": "../../Domain/GoodHamburger.Domain/GoodHamburger.Domain.csproj",
@@ -3186,6 +3300,7 @@
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "GoodHamburger.Application >= 1.0.0",
       "GoodHamburger.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 10.0.6",
       "Microsoft.EntityFrameworkCore.Design >= 10.0.6",
@@ -3232,6 +3347,9 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
+            "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\src\\Application\\GoodHamburger.Application\\GoodHamburger.Application.csproj": {
+              "projectPath": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\src\\Application\\GoodHamburger.Application\\GoodHamburger.Application.csproj"
+            },
             "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\src\\Domain\\GoodHamburger.Domain\\GoodHamburger.Domain.csproj": {
               "projectPath": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\src\\Domain\\GoodHamburger.Domain\\GoodHamburger.Domain.csproj"
             }
