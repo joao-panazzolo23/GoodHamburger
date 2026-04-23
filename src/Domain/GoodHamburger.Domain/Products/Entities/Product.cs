@@ -5,6 +5,11 @@ namespace GoodHamburger.Domain.Products.Entities;
 
 public class Product : Entity
 {
+    //ef
+    private Product()
+    {
+
+    }
     public Product(string name, decimal price, ProductCategory productCategory)
     {
         Name = name;

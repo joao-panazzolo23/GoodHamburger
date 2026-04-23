@@ -5,14 +5,15 @@ using GoodHamburger.Domain.Orders.Entities;
 using GoodHamburger.Domain.Orders.Repositories;
 using GoodHamburger.Domain.Products.Repositories;
 using GoodHamburger.Domain.Shared.Data;
+using GoodHamburger.Domain.Shared.Dto;
 using Mediator;
 
 namespace GoodHamburger.Application.Orders.Handlers;
 
-internal sealed class UpdateOrderHandler(
+public sealed class UpdateOrderHandler(
     IOrderRepository orderRepository,
-    IProductRepository productRepository, 
-    IUnityOfWork unityOfWork, 
+    IProductRepository productRepository,
+    IUnityOfWork unityOfWork,
     IDiscountCalculator discountCalculator
     ) : ICommandHandler<UpdateOrderCommand, Result<Unit>>
 {
@@ -21,11 +22,15 @@ internal sealed class UpdateOrderHandler(
         CancellationToken cancellationToken
         )
     {
+        var result = new DomainResult();
+
         var order = await orderRepository.Get(command.Id);
 
         if (order == null) return ResultFactory<Unit>.NotFound($"{nameof(order)} was not found!");
 
-        order.Update(command.Name, command.PhoneNumber);
+        var orderResult = order.Update(command.Name, command.PhoneNumber);
+
+        result.Add(orderResult);
 
         order.ClearItems();
 

@@ -42,14 +42,14 @@ public class Order : Entity
         this.PhoneNumber = phone;
     }
 
-    public Order Update(
+    public DomainError Update(
         string name,
         string phone
         )
     {
         this.Name = name;
         this.PhoneNumber = phone;
-        return this;
+        return CausesError.None;
     }
 
     public void ClearItems()

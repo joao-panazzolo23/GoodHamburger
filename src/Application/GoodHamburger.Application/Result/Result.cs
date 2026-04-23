@@ -15,6 +15,6 @@ public class Result<T>(
     [JsonIgnore] private readonly HttpStatusCode _statusCode = statusCode;
     [JsonIgnore] public int StatusCode => (int)_statusCode;
     public string? Message { get; private set; } = message;
-    public IEnumerable<DomainError>? Errors { get; set; }
+    public IEnumerable<DomainError>? Errors { get; set; } = errors;
     public T? Data { get; private set; } = data;
 }

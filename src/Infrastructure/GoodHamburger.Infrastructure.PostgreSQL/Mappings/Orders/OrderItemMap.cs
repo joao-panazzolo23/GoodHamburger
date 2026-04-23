@@ -11,7 +11,5 @@ internal class OrderItemMap : AbstractMapper<OrderItem>
         builder.Property(x => x.Category);
 
         builder.HasOne(x => x.Product).WithMany().HasForeignKey(x => x.ProductId);
-
-        builder.HasOne(x => x.Order).WithMany(x => x.Items).HasForeignKey(x => x.OrderId);
     }
 }

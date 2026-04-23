@@ -6,7 +6,7 @@ namespace GoodHamburger.Application.Result;
 public static class ResultFactory<T>
 {
     //todo: implement error returns, consider OneOf or CSharpFunctionalExtensions
-    public static Result<T?> Ok(T? data = default, string? message = null) =>
+    public static Result<T> Ok(T? data = default, string? message = null) =>
         new(statusCode: HttpStatusCode.OK, data, message);
 
     public static Result<T?> Unauthorized(T? data = default, string? message = null) =>
@@ -17,7 +17,7 @@ public static class ResultFactory<T>
             statusCode: HttpStatusCode.BadRequest,
             data: default,
             message: message,
-            errors: errors
+            errors: (errors ?? []).Where(x => !x.Error.Equals(string.Empty))
         );
 
     public static Result<T?> NotFound(string? message = null) =>

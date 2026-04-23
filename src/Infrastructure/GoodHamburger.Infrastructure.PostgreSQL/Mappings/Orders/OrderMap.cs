@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace GoodHamburger.Infrastructure.PostgreSQL.Mappings.Orders;
 
-public class OrderMapping : AbstractMapper<Order>
+public class OrderMap : AbstractMapper<Order>
 {
     protected override void ConfigureMap(EntityTypeBuilder<Order> builder)
     {
@@ -13,8 +13,8 @@ public class OrderMapping : AbstractMapper<Order>
         builder.Property(x => x.PhoneNumber);
 
         builder.HasMany(x => x.Items)
-            .WithOne()
-            .HasForeignKey(x=>x.OrderId)
+            .WithOne(x => x.Order)
+            .HasForeignKey(x => x.OrderId)
             .OnDelete(Microsoft.EntityFrameworkCore.DeleteBehavior.Cascade);
 
     }

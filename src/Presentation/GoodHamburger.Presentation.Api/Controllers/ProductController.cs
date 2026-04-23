@@ -6,12 +6,12 @@ using Microsoft.AspNetCore.Mvc;
 namespace GoodHamburger.Presentation.Api.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("v1/[controller]")]
 public class ProductController(IMediator mediator) : ControllerBase
 {
-    [HttpPost]
-    public async Task<ActionResult<Result<Unit>>> Create(
-        [FromBody] CreateProductCommand command,
+    [HttpGet("menu")]
+    public async Task<ActionResult<Result<Unit>>> Menu(
+        [FromQuery] GetMenuCommand command,
         CancellationToken token
     )
     {
