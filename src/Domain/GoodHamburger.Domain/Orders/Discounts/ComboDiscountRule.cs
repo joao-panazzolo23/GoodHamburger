@@ -1,8 +1,8 @@
-﻿using GoodHamburger.Domain.Order.Orders.Discounts.Abstract;
-using GoodHamburger.Domain.Order.Orders.Entities;
-using GoodHamburger.Domain.Order.Products.Enums;
+﻿using GoodHamburger.Domain.Orders.Discounts.Abstract;
+using GoodHamburger.Domain.Orders.Entities;
+using GoodHamburger.Domain.Products.Enums;
 
-namespace GoodHamburger.Domain.Order.Orders.Discounts;
+namespace GoodHamburger.Domain.Orders.Discounts;
 
 public class ComboDiscountRule : IDiscountRule
 {

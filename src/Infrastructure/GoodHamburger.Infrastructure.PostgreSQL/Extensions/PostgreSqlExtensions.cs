@@ -1,5 +1,5 @@
-using GoodHamburger.Domain.Order.Orders.Repositories;
-using GoodHamburger.Domain.Order.Products.Repositories;
+using GoodHamburger.Domain.Orders.Repositories;
+using GoodHamburger.Domain.Products.Repositories;
 using GoodHamburger.Domain.Shared.Data;
 using GoodHamburger.Infrastructure.PostgreSQL.Data;
 using GoodHamburger.Infrastructure.PostgreSQL.DbContext;

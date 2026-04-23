@@ -1,7 +1,7 @@
-﻿using GoodHamburger.Domain.Order.Orders.Entities;
+﻿using GoodHamburger.Domain.Orders.Entities;
 using System.Data;
 
-namespace GoodHamburger.Domain.Order.Orders.Discounts.Abstract;
+namespace GoodHamburger.Domain.Orders.Discounts.Abstract;
 
 public interface IDiscountCalculator
 {

@@ -1,7 +1,7 @@
-using GoodHamburger.Domain.Order.Products.Enums;
+using GoodHamburger.Domain.Products.Enums;
 using GoodHamburger.Domain.Shared.Entities;
 
-namespace GoodHamburger.Domain.Order.Products.Entities;
+namespace GoodHamburger.Domain.Products.Entities;
 
 public class Product : Entity
 {
@@ -9,10 +9,10 @@ public class Product : Entity
     {
         Name = name;
         Price = price;
-        ProductCategory = productCategory;
+        Category = productCategory;
     }
 
     public string Name { get; private set; }
     public decimal Price { get; private set; }
-    public ProductCategory ProductCategory { get; private set; }
+    public ProductCategory Category { get; private set; }
 }

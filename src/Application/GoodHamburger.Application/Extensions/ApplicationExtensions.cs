@@ -1,7 +1,7 @@
 using FluentValidation;
 using GoodHamburger.Application.Pipelines.Behaviors;
-using GoodHamburger.Domain.Order.Orders.Discounts;
-using GoodHamburger.Domain.Order.Orders.Discounts.Abstract;
+using GoodHamburger.Domain.Orders.Discounts;
+using GoodHamburger.Domain.Orders.Discounts.Abstract;
 using Mediator;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -25,7 +25,7 @@ public static class ApplicationExtensions
     public static IServiceCollection AddApplicationServices(this IServiceCollection services)
     {
         return services.AddScoped<IDiscountRule, SandwichAndPotatoRule>()
-                       .AddScoped<IDiscountRule, SandwichAndSideDishRule>()
+                       .AddScoped<IDiscountRule, SandwichAndBeverageRule>()
                        .AddScoped<IDiscountRule, ComboDiscountRule>()
                        .AddScoped<IDiscountCalculator, DiscountCalculator>()
                        ;

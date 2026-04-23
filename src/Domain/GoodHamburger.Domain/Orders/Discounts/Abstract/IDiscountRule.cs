@@ -1,6 +1,6 @@
-﻿using GoodHamburger.Domain.Order.Orders.Entities;
+﻿using GoodHamburger.Domain.Orders.Entities;
 
-namespace GoodHamburger.Domain.Order.Orders.Discounts.Abstract;
+namespace GoodHamburger.Domain.Orders.Discounts.Abstract;
 
 public interface IDiscountRule
 {

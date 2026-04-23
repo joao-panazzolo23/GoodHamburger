@@ -3,7 +3,7 @@ using GoodHamburger.Application.Orders.Commands;
 
 namespace GoodHamburger.Application.Orders.Validations;
 
-internal sealed class CreateOrderCommandValidator : AbstractValidator<CreateOrderCommand>
+internal class CreateOrderCommandValidator : AbstractValidator<CreateOrderCommand>
 {
     public CreateOrderCommandValidator()
     {

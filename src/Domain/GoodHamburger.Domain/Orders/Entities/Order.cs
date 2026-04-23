@@ -1,21 +1,24 @@
-using GoodHamburger.Domain.Order.Orders.Discounts.Abstract;
+using GoodHamburger.Domain.Orders.Discounts.Abstract;
 using GoodHamburger.Domain.Shared.Dto;
 using GoodHamburger.Domain.Shared.Entities;
 
-namespace GoodHamburger.Domain.Order.Orders.Entities;
+namespace GoodHamburger.Domain.Orders.Entities;
 
 public class Order : Entity
 {
     public string Name { get; private set; }
     public string PhoneNumber { get; private set; }
-    private List<OrderItem> _items { get; set; } = new();
-    public IReadOnlyCollection<OrderItem>? Items { get; private set; }
+    private List<OrderItem> _items { get; set; } = [];
+    public IReadOnlyCollection<OrderItem>? Items => _items;
     public decimal Total { get; private set; }
+    public decimal Subtotal { get; private set; }
 
 
     public DomainError ApplyDiscount(IDiscountCalculator calculator)
     {
-        this.Total = calculator.Calculate(this._items);
+        var discountPercentage = calculator.Calculate(this._items);
+
+        this.Total = this._items.Sum(i => i.Price) * (1 - discountPercentage);
 
         return CausesError.None;
     }
@@ -26,6 +29,8 @@ public class Order : Entity
             return CausesError.DuplicateItem;
 
         _items.Add(item);
+        this.Subtotal = _items.Sum(i => i.Price);
+
         return CausesError.None;
     }
 
@@ -36,10 +41,20 @@ public class Order : Entity
         this.Name = name;
         this.PhoneNumber = phone;
     }
+
+    public Order Update(
+        string name,
+        string phone
+        )
+    {
+        this.Name = name;
+        this.PhoneNumber = phone;
+        return this;
+    }
+
+    public void ClearItems()
+    {
+        this._items.Clear();
+    }
 }
 
-
-//Order: 
-//CustomerId
-//list<items>
-//

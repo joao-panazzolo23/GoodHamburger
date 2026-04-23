@@ -1,7 +1,6 @@
-namespace GoodHamburger.Domain.Order.Orders.Repositories;
+namespace GoodHamburger.Domain.Orders.Repositories;
 
 using Entities;
-using GoodHamburger.Domain.Order.Orders.Entities;
 
 public interface IOrderRepository
 {

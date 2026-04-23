@@ -1,4 +1,4 @@
-using GoodHamburger.Domain.Order.Orders.Entities;
+using GoodHamburger.Domain.Orders.Entities;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace GoodHamburger.Infrastructure.PostgreSQL.Mappings.Orders;

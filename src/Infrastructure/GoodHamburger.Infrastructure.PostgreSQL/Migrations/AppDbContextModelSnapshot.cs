@@ -117,8 +117,8 @@ namespace GoodHamburger.Infrastructure.PostgreSQL.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("019db73b-e14a-7eb1-90f6-d52203ba3416"),
-                            CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Id = new Guid("019db749-f14f-7229-878e-521828711e11"),
+                            CreatedAt = new DateTime(2026, 4, 22, 22, 22, 49, 680, DateTimeKind.Utc).AddTicks(995),
                             Name = "X Burger",
                             Price = 5.00m,
                             ProductCategory = 0,
@@ -126,8 +126,8 @@ namespace GoodHamburger.Infrastructure.PostgreSQL.Migrations
                         },
                         new
                         {
-                            Id = new Guid("019db73b-e14a-7053-a8b8-6394480ff877"),
-                            CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Id = new Guid("019db749-f14f-7402-bfa4-e1f7f10e4d19"),
+                            CreatedAt = new DateTime(2026, 4, 22, 22, 22, 49, 680, DateTimeKind.Utc).AddTicks(1322),
                             Name = "X Egg",
                             Price = 4.50m,
                             ProductCategory = 0,
@@ -135,8 +135,8 @@ namespace GoodHamburger.Infrastructure.PostgreSQL.Migrations
                         },
                         new
                         {
-                            Id = new Guid("019db73b-e14a-7687-9105-811b1c33fa05"),
-                            CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Id = new Guid("019db749-f14f-7d52-baa1-3b64d2b97a3d"),
+                            CreatedAt = new DateTime(2026, 4, 22, 22, 22, 49, 680, DateTimeKind.Utc).AddTicks(1323),
                             Name = "X Bacon",
                             Price = 7.00m,
                             ProductCategory = 0,
@@ -144,8 +144,8 @@ namespace GoodHamburger.Infrastructure.PostgreSQL.Migrations
                         },
                         new
                         {
-                            Id = new Guid("019db73b-e14a-7432-b478-daa0c61217a2"),
-                            CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Id = new Guid("019db749-f14f-7f08-8948-21e2c9663c56"),
+                            CreatedAt = new DateTime(2026, 4, 22, 22, 22, 49, 680, DateTimeKind.Utc).AddTicks(1323),
                             Name = "French Fries",
                             Price = 2.00m,
                             ProductCategory = 1,
@@ -153,8 +153,8 @@ namespace GoodHamburger.Infrastructure.PostgreSQL.Migrations
                         },
                         new
                         {
-                            Id = new Guid("019db73b-e14a-745d-b80c-b5dffb27fdcf"),
-                            CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Id = new Guid("019db749-f14f-7b28-8292-4300523cfd15"),
+                            CreatedAt = new DateTime(2026, 4, 22, 22, 22, 49, 680, DateTimeKind.Utc).AddTicks(1324),
                             Name = "Soda",
                             Price = 2.50m,
                             ProductCategory = 2,

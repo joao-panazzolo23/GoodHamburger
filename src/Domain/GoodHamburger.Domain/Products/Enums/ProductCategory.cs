@@ -1,4 +1,4 @@
-namespace GoodHamburger.Domain.Order.Products.Enums;
+namespace GoodHamburger.Domain.Products.Enums;
 
 public enum ProductCategory
 {

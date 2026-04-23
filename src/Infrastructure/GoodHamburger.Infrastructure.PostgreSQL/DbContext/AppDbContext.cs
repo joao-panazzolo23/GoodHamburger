@@ -1,5 +1,5 @@
-using GoodHamburger.Domain.Order.Orders.Entities;
-using GoodHamburger.Domain.Order.Products.Entities;
+using GoodHamburger.Domain.Orders.Entities;
+using GoodHamburger.Domain.Products.Entities;
 using GoodHamburger.Domain.Shared.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;

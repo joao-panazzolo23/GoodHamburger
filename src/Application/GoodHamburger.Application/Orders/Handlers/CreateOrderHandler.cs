@@ -1,9 +1,9 @@
 using GoodHamburger.Application.Orders.Commands;
 using GoodHamburger.Application.Result;
-using GoodHamburger.Domain.Order.Orders.Discounts.Abstract;
 using GoodHamburger.Domain.Order.Orders.Entities;
-using GoodHamburger.Domain.Order.Orders.Repositories;
-using GoodHamburger.Domain.Order.Products.Repositories;
+using GoodHamburger.Domain.Orders.Discounts.Abstract;
+using GoodHamburger.Domain.Orders.Repositories;
+using GoodHamburger.Domain.Products.Repositories;
 using GoodHamburger.Domain.Shared.Data;
 using GoodHamburger.Domain.Shared.Dto;
 using Mediator;

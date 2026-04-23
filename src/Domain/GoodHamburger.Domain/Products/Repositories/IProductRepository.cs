@@ -1,6 +1,6 @@
-﻿using GoodHamburger.Domain.Order.Products.Entities;
+﻿using GoodHamburger.Domain.Products.Entities;
 
-namespace GoodHamburger.Domain.Order.Products.Repositories;
+namespace GoodHamburger.Domain.Products.Repositories;
 
 public interface IProductRepository
 {
