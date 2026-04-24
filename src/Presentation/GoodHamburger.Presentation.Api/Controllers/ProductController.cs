@@ -1,5 +1,6 @@
 using GoodHamburger.Application.Products.Commands;
 using GoodHamburger.Application.Result;
+using GoodHamburger.Domain.Products.Dtos;
 using Mediator;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,7 +11,7 @@ namespace GoodHamburger.Presentation.Api.Controllers;
 public class ProductController(IMediator mediator) : ControllerBase
 {
     [HttpGet("menu")]
-    public async Task<ActionResult<Result<Unit>>> Menu(
+    public async Task<ActionResult<Result<IEnumerable<ProductDto>>>> Menu(
         [FromQuery] GetMenuCommand command,
         CancellationToken token
     )
