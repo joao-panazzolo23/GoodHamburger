@@ -35,9 +35,9 @@ Também fiz um padrão CQRS com escrita e leitura separadamente, com Dapper e En
 Para gerar as migrations e aplicá-las no banco:
 
 ### Passo 1️⃣ Selecione o projeto que contém o NpgSql & Entity framework
-bash
+```
 cd src/Infrastructure/Core.Template.Infrastructure.PostgreSQL/
-
+```
 
 ### Passo 2️⃣ Criar uma migração
 ```
