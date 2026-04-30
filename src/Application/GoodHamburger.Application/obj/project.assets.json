@@ -189,23 +189,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Barba\\.nuget\\packages\\": {},
+    "C:\\Users\\equip\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\src\\Application\\GoodHamburger.Application\\GoodHamburger.Application.csproj",
+      "projectUniqueName": "C:\\Users\\equip\\OneDrive\\Desktop\\apresentacao DDD\\GoodHamburger\\src\\Application\\GoodHamburger.Application\\GoodHamburger.Application.csproj",
       "projectName": "GoodHamburger.Application",
-      "projectPath": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\src\\Application\\GoodHamburger.Application\\GoodHamburger.Application.csproj",
-      "packagesPath": "C:\\Users\\Barba\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\src\\Application\\GoodHamburger.Application\\obj\\",
+      "projectPath": "C:\\Users\\equip\\OneDrive\\Desktop\\apresentacao DDD\\GoodHamburger\\src\\Application\\GoodHamburger.Application\\GoodHamburger.Application.csproj",
+      "packagesPath": "C:\\Users\\equip\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\equip\\OneDrive\\Desktop\\apresentacao DDD\\GoodHamburger\\src\\Application\\GoodHamburger.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Barba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\equip\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -221,8 +221,8 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\src\\Domain\\GoodHamburger.Domain\\GoodHamburger.Domain.csproj": {
-              "projectPath": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\src\\Domain\\GoodHamburger.Domain\\GoodHamburger.Domain.csproj"
+            "C:\\Users\\equip\\OneDrive\\Desktop\\apresentacao DDD\\GoodHamburger\\src\\Domain\\GoodHamburger.Domain\\GoodHamburger.Domain.csproj": {
+              "projectPath": "C:\\Users\\equip\\OneDrive\\Desktop\\apresentacao DDD\\GoodHamburger\\src\\Domain\\GoodHamburger.Domain\\GoodHamburger.Domain.csproj"
             }
           }
         }

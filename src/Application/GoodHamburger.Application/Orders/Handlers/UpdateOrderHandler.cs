@@ -52,6 +52,8 @@ public sealed class UpdateOrderHandler(
 
         order.ApplyDiscount(discountCalculator);
 
+        if(result.HasError) return ResultFactory<Unit>.BadRequest(message: "Failed to update order!", errors: result.Errors);
+
         await orderRepository.Update(order);
 
         await unityOfWork.Commit(cancellationToken);

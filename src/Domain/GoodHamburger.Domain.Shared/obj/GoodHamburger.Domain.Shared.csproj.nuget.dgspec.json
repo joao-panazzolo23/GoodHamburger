@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\src\\Domain\\GoodHamburger.Domain.Shared\\GoodHamburger.Domain.Shared.csproj": {}
+    "C:\\Users\\equip\\OneDrive\\Desktop\\apresentacao DDD\\GoodHamburger\\src\\Domain\\GoodHamburger.Domain.Shared\\GoodHamburger.Domain.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\src\\Domain\\GoodHamburger.Domain.Shared\\GoodHamburger.Domain.Shared.csproj": {
+    "C:\\Users\\equip\\OneDrive\\Desktop\\apresentacao DDD\\GoodHamburger\\src\\Domain\\GoodHamburger.Domain.Shared\\GoodHamburger.Domain.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\src\\Domain\\GoodHamburger.Domain.Shared\\GoodHamburger.Domain.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\equip\\OneDrive\\Desktop\\apresentacao DDD\\GoodHamburger\\src\\Domain\\GoodHamburger.Domain.Shared\\GoodHamburger.Domain.Shared.csproj",
         "projectName": "GoodHamburger.Domain.Shared",
-        "projectPath": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\src\\Domain\\GoodHamburger.Domain.Shared\\GoodHamburger.Domain.Shared.csproj",
-        "packagesPath": "C:\\Users\\Barba\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Barba\\source\\repos\\GoodHamburger\\src\\Domain\\GoodHamburger.Domain.Shared\\obj\\",
+        "projectPath": "C:\\Users\\equip\\OneDrive\\Desktop\\apresentacao DDD\\GoodHamburger\\src\\Domain\\GoodHamburger.Domain.Shared\\GoodHamburger.Domain.Shared.csproj",
+        "packagesPath": "C:\\Users\\equip\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\equip\\OneDrive\\Desktop\\apresentacao DDD\\GoodHamburger\\src\\Domain\\GoodHamburger.Domain.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Barba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\equip\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

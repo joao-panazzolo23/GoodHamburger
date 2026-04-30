@@ -1,11 +1,4 @@
-﻿
-using FluentAssertions;
-using GoodHamburger.Domain.Orders.Discounts;
-using GoodHamburger.Domain.Orders.Discounts.Abstract;
-using GoodHamburger.Domain.Orders.Entities;
-using GoodHamburger.Domain.Products.Enums;
-
-namespace GoodHamburger.Domain.UnitTests;
+﻿namespace GoodHamburger.Domain.UnitTests;
 
 public class OrderTest
 {
